@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>CHALLON_NDKTUAL_ENGLISH TEST</title>
+<meta name="description" content="CHALLON NDKTUAL multilingual English reading and vocabulary assessment">
+<style>
+:root{
+  --green:#A7DE6D; --green-strong:#6FB642; --green-deep:#407A27; --green-soft:#F2FAE8;
+  --sky:#65C8F3; --sky-strong:#269ED7; --sky-deep:#126D9C; --sky-soft:#EAF8FF;
+  --white:#FFFFFF; --ink:#17311F; --muted:#6A7D70; --line:#D9EAD1; --danger:#E45F69;
+  --warning:#E7A13A; --shadow:0 16px 42px rgba(50,102,64,.12);
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 8% 0%,rgba(101,200,243,.18),transparent 26%),
+    radial-gradient(circle at 92% 7%,rgba(167,222,109,.20),transparent 28%),
+    linear-gradient(180deg,#FFFFFF 0%,#F8FCF4 56%,#F5FBFF 100%);
+  min-height:100vh
+}
+button,input,select,textarea{font:inherit}button{cursor:pointer}.hidden{display:none!important}
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.94);backdrop-filter:blur(14px);
+  border-bottom:1px solid #DDEEF5
+}
+.head{
+  width:min(1320px,calc(100% - 28px));margin:auto;padding:11px 0;
+  display:flex;align-items:center;justify-content:space-between;gap:14px
+}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.logo{
+  width:48px;height:48px;border-radius:15px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--sky),var(--green));
+  color:#fff;font-size:17px;font-weight:1000;box-shadow:0 10px 26px rgba(38,158,215,.22)
+}
+.brand-title{font-weight:1000;letter-spacing:-.025em;font-size:17px;white-space:nowrap}
+.brand-title small{display:block;color:var(--muted);font-size:10px;letter-spacing:.06em;margin-top:2px}
+.head-right{display:flex;align-items:center;gap:8px}
+.navs,.langs{display:flex;align-items:center;gap:5px;padding:4px;border-radius:999px;background:#F4FAFC;border:1px solid #DCEEF5}
+.nav,.lang{
+  border:0;border-radius:999px;padding:8px 11px;background:transparent;color:#31505F;font-size:11px;font-weight:950
+}
+.nav.active{background:var(--sky-strong);color:#fff;box-shadow:0 6px 16px rgba(38,158,215,.20)}
+.lang.active{background:var(--green-strong);color:#fff;box-shadow:0 6px 16px rgba(111,182,66,.20)}
+.wrap{width:min(1320px,calc(100% - 28px));margin:auto}
+.hero{padding:42px 0 25px;display:grid;grid-template-columns:1.08fr .92fr;gap:24px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,var(--sky-soft),var(--green-soft));border:1px solid #D8EEF1;color:var(--sky-deep);font-size:12px;font-weight:950}
+h1{font-size:clamp(36px,5.4vw,64px);line-height:1.03;letter-spacing:-.055em;margin:15px 0}
+.hero p{color:var(--muted);font-size:17px;line-height:1.72;max-width:760px}
+.highlight-blue{color:var(--sky-deep)}.highlight-green{color:var(--green-deep)}
+.stats,.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.stat,.kpi{
+  background:rgba(255,255,255,.94);border:1px solid #DDECEC;border-radius:18px;padding:16px;box-shadow:var(--shadow);
+  position:relative;overflow:hidden
+}
+.stat:before,.kpi:before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--sky),var(--green))}
+.stat strong,.kpi strong{display:block;font-size:24px;color:var(--deep,var(--green-deep))}
+.stat span,.kpi span{color:var(--muted);font-size:11px;font-weight:850}
+.card{background:rgba(255,255,255,.97);border:1px solid #DCEAE1;border-radius:23px;box-shadow:var(--shadow)}
+.panel{padding:23px;margin:10px 0 27px}.panel h2{margin:0 0 7px;letter-spacing:-.025em}.sub{color:var(--muted);line-height:1.6;margin:0 0 18px}
+.rolegrid,.typegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.role,.typebtn,.diff{
+  padding:19px;border:1.5px solid #DCEAE1;border-radius:18px;background:#fff;text-align:left;transition:.18s
+}
+.role:hover,.typebtn:hover,.diff:hover{transform:translateY(-2px);border-color:var(--sky);box-shadow:0 12px 28px rgba(38,158,215,.10)}
+.role:nth-child(2){background:linear-gradient(180deg,#fff,var(--sky-soft))}
+.role:nth-child(3){background:linear-gradient(180deg,#fff,var(--green-soft))}
+.typebtn.active,.diff.active{background:linear-gradient(135deg,var(--sky-soft),var(--green-soft));border-color:var(--green-strong);box-shadow:0 0 0 3px rgba(167,222,109,.18)}
+.role strong,.typebtn strong{font-size:18px}.role p,.typebtn p{margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.5}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+.field label{display:block;font-weight:900;margin-bottom:7px;color:#294D37}.help{font-size:12px;color:var(--muted);line-height:1.45;margin-top:5px}
+input[type=text],input[type=password],select,textarea{
+  width:100%;padding:12px 13px;border:1.5px solid #D9E8DF;border-radius:13px;background:#FCFFFC;color:var(--ink);outline:none
+}
+input:focus,select:focus,textarea:focus{border-color:var(--sky-strong);box-shadow:0 0 0 4px rgba(101,200,243,.15)}
+textarea{min-height:90px;resize:vertical}
+.btnrow{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-top:16px}
+.btn{border:none;border-radius:13px;padding:12px 16px;font-weight:950}
+.primary{color:#fff;background:linear-gradient(135deg,var(--green-strong),var(--green-deep));box-shadow:0 9px 22px rgba(111,182,66,.18)}
+.blue{color:#fff;background:linear-gradient(135deg,var(--sky),var(--sky-strong));box-shadow:0 9px 22px rgba(38,158,215,.18)}
+.secondary{background:#fff;border:1px solid #D8E8E3;color:var(--ink)}.danger{background:#fff;border:1px solid #F0C0C5;color:var(--danger)}
+.loginbox{width:min(620px,100%);margin:48px auto}
+.notice{padding:12px 14px;border-radius:13px;background:#FFF8E7;border:1px solid #EFD8A9;color:#73561D;font-size:12px;line-height:1.55}
+.classcards,.teachercards{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.classcard,.teachercard{padding:16px;border:1px solid #D9E8DF;border-radius:17px;background:linear-gradient(160deg,#fff 0%,#FBFFF8 55%,#F3FAFF 100%)}
+.classcard h3,.teachercard h3{margin:0 0 5px}.meta{font-size:12px;color:var(--muted);line-height:1.55}
+.chip{display:inline-flex;margin-top:8px;padding:6px 8px;border-radius:999px;background:var(--sky-soft);color:var(--sky-deep);font-size:11px;font-weight:950}
+.tablewrap{overflow:auto;border:1px solid #DAE9E1;border-radius:15px}
+table{width:100%;border-collapse:collapse;min-width:950px;background:#fff}th,td{padding:10px 11px;border-bottom:1px solid #E2EEE7;text-align:left;font-size:12px}
+th{background:linear-gradient(90deg,var(--sky-soft),var(--green-soft));color:#265066;position:sticky;top:0;z-index:2}.scorechip{display:inline-flex;padding:5px 8px;border-radius:999px;background:var(--green-soft);color:var(--green-deep);font-weight:950}
+.toolbar{display:grid;grid-template-columns:1.1fr .75fr .75fr auto;gap:9px;align-items:end;margin-bottom:13px}
+.analytics{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.weakgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.weak{padding:12px;border:1px solid #DCEAE1;border-radius:13px;background:#FCFFFC}.weakbar{height:8px;background:#EAF1ED;border-radius:999px;overflow:hidden;margin-top:7px}.weakfill{height:100%;background:linear-gradient(90deg,var(--danger),var(--warning),var(--green-strong))}
+.diffcards{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.diff small{display:block;color:var(--muted);margin-top:4px}
+.exam{display:none;grid-template-columns:minmax(0,1.04fr) minmax(390px,.96fr);gap:18px;margin:20px 0 55px}
+.exam .card:first-child{border-top:4px solid var(--sky)}.exam .card:last-child{border-top:4px solid var(--green)}
+.examhead{padding:15px 17px;border-bottom:1px solid #DDEBE5;display:flex;justify-content:space-between;gap:9px;align-items:center;background:linear-gradient(90deg,#F7FCFF,#FBFFF7)}
+.examhead h2{margin:0;font-size:18px}.tag{display:inline-flex;padding:7px 9px;border-radius:999px;background:var(--sky-soft);color:var(--sky-deep);font-size:11px;font-weight:900}
+.scroll{max-height:740px;overflow:auto}.passage{padding:21px}.passage h3{font-size:26px;margin:7px 0 12px}.passage p{font-size:17px;line-height:1.85}
+.wordhero{font-size:44px;font-weight:1000;color:var(--green-deep);letter-spacing:-.04em;margin:10px 0}.wordsub{color:var(--muted);font-size:14px}
+.qwrap{padding:19px}.qnum{display:inline-flex;width:34px;height:34px;border-radius:10px;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--sky),var(--green));color:#fff;font-weight:1000}.qtitle{font-size:18px;font-weight:950;line-height:1.55;margin:12px 0}
+.option{display:flex;gap:9px;padding:11px;border:1px solid #DCEAE1;border-radius:12px;margin:8px 0;background:#FCFFFC}.option:hover{border-color:var(--sky)}
+.qnav{display:flex;gap:6px;flex-wrap:wrap;padding:13px 17px;border-top:1px solid #DDEBE5}.qdot{width:33px;height:33px;border:none;border-radius:10px;background:#EEF5F2;color:#376044;font-weight:900}.qdot.done{background:var(--green);color:#23451E}.qdot.current{outline:3px solid rgba(101,200,243,.30)}
+.bottom{position:sticky;bottom:10px;margin:11px 15px 15px;padding:11px;border:1px solid #DCEAE1;border-radius:16px;background:rgba(255,255,255,.96);display:flex;align-items:center;gap:11px;box-shadow:0 11px 28px rgba(38,158,215,.10)}
+.progress{flex:1}.pline{height:8px;background:#EAF1ED;border-radius:999px;overflow:hidden}.pbar{height:100%;background:linear-gradient(90deg,var(--sky),var(--green-strong));width:0}.plabel{display:flex;justify-content:space-between;font-size:11px;font-weight:900;color:var(--muted);margin-bottom:5px}
+.result{display:none;padding:26px;margin:20px 0 55px}.resultlayout{display:grid;grid-template-columns:1fr 280px;gap:22px}.ring{width:136px;height:136px;margin:auto;border-radius:50%;display:grid;place-items:center;position:relative}.ring:after{content:"";position:absolute;width:103px;height:103px;border-radius:50%;background:#fff}.ring strong{position:relative;z-index:1;font-size:26px}
+.rgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-top:18px}.rbox{padding:14px;border:1px solid #DDEAE3;border-radius:14px;background:linear-gradient(180deg,#fff,#F9FFF5);text-align:center}.rbox strong{display:block;font-size:21px;color:var(--green-deep)}
+.section{margin-top:17px;padding:16px;border:1px solid #DDEAE3;border-radius:16px}.review{padding:12px 0;border-top:1px solid #E2EEE7}.review:first-child{border-top:none}.good{color:var(--green-deep);font-weight:950}.bad{color:var(--danger);font-weight:950}.explain{margin-top:6px;padding:9px 11px;border-radius:11px;background:linear-gradient(90deg,var(--sky-soft),var(--green-soft));font-size:13px;line-height:1.5}
+.sidecard{position:sticky;top:84px;padding:18px;border:1px solid #D9EAE0;border-radius:18px;background:linear-gradient(160deg,#fff,var(--sky-soft) 52%,var(--green-soft))}.token{font-family:ui-monospace,monospace;font-size:10px;max-height:80px;overflow:auto;word-break:break-all;background:#fff;border:1px solid #D9E8DF;padding:8px;border-radius:9px}
+canvas{width:100%;height:220px;border:1px solid #DDEAE3;border-radius:14px;background:#fff}
+.modal{position:fixed;inset:0;z-index:80;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(17,50,58,.46)}.modalbox{width:min(900px,100%);max-height:88vh;overflow:auto;background:#fff;border:1px solid #DCEAE1;border-radius:21px;padding:21px;box-shadow:0 30px 80px rgba(0,0,0,.2)}.modalhead{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.footer{text-align:center;color:var(--muted);font-size:11px;padding:28px 0 45px}
+.lang-note{font-size:11px;color:var(--muted);text-align:right;margin-top:5px}
+@media(max-width:1080px){.head{align-items:flex-start}.head-right{flex-direction:column;align-items:flex-end}.hero,.exam,.resultlayout,.analytics{grid-template-columns:1fr}.classcards,.teachercards{grid-template-columns:repeat(2,1fr)}.stats,.kpis{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr 1fr}.sidecard{position:static}.scroll{max-height:none}.rgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:720px){.head{flex-direction:column}.head-right{width:100%;align-items:stretch}.navs,.langs{justify-content:center}.brand-title{white-space:normal}.rolegrid,.typegrid,.classcards,.teachercards,.grid2,.grid3,.grid4,.diffcards,.weakgrid,.stats,.kpis{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr}.bottom{flex-direction:column;align-items:stretch}.rgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="head">
+  <div class="brand">
+    <div class="logo">CN</div>
+    <div class="brand-title">CHALLON_NDKTUAL_ENGLISH TEST<small>READING · VOCABULARY · CLASSROOM ANALYTICS</small></div>
+  </div>
+  <div class="head-right">
+    <div class="navs">
+      <button class="nav active" id="homeNav" onclick="showHome()" data-i18n="nav.home">Home</button>
+      <button class="nav" id="studentNav" onclick="openStudent()" data-i18n="nav.student">Student</button>
+      <button class="nav" id="teacherNav" onclick="openTeacherLogin()" data-i18n="nav.teacher">Teacher</button>
+      <button class="nav" id="adminNav" onclick="openAdminLogin()" data-i18n="nav.admin">Admin</button>
+    </div>
+    <div>
+      <div class="langs">
+        <button class="lang active" data-lang="en" onclick="setLanguage('en')">EN</button>
+        <button class="lang" data-lang="uz" onclick="setLanguage('uz')">O‘Z</button>
+        <button class="lang" data-lang="ru" onclick="setLanguage('ru')">RU</button>
+      </div>
+      <div class="lang-note" data-i18n="lang.note">UI language only · Test questions stay in English</div>
+    </div>
+  </div>
+</div>
+</header>
+
+<main class="wrap">
+<section id="homeView">
+  <section class="hero">
+    <div>
+      <span class="eyebrow" data-i18n="home.eyebrow">🌐 3-language classroom interface</span>
+      <h1><span data-i18n="home.title1">English assessment for</span><br><span class="highlight-blue">CHALLON × NDKTUAL</span></h1>
+      <p data-i18n="home.desc">The interface can switch instantly between English, Uzbek and Russian. Reading passages and all test questions remain in English so that the assessment standard stays consistent.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><strong>500</strong><span data-i18n="home.stat1">Reading questions</span></div>
+      <div class="stat"><strong>1,000</strong><span data-i18n="home.stat2">Vocabulary items</span></div>
+      <div class="stat"><strong>3,000</strong><span data-i18n="home.stat3">Vocabulary variations</span></div>
+      <div class="stat"><strong>EN / UZ / RU</strong><span data-i18n="home.stat4">Instant UI language</span></div>
+    </div>
+  </section>
+
+  <section class="card panel">
+    <h2 data-i18n="home.roleTitle">Choose your role</h2>
+    <div class="rolegrid">
+      <button class="role" onclick="openAdminLogin()"><strong data-i18n="role.admin.title">🛡️ Admin</strong><p data-i18n="role.admin.desc">Manage teachers, classes and school-wide learning data.</p></button>
+      <button class="role" onclick="openTeacherLogin()"><strong data-i18n="role.teacher.title">🧑‍🏫 Teacher</strong><p data-i18n="role.teacher.desc">Manage up to five classes and monitor student performance.</p></button>
+      <button class="role" onclick="openStudent()"><strong data-i18n="role.student.title">🎓 Student</strong><p data-i18n="role.student.desc">Join a class and take Reading, Vocabulary or Mixed tests.</p></button>
+    </div>
+  </section>
+
+  <section class="card panel">
+    <h2 data-i18n="home.contentTitle">Content & difficulty structure</h2>
+    <div class="kpis">
+      <div class="kpi"><strong>150 / 200 / 150</strong><span data-i18n="home.readDist">Reading Low / Medium / High</span></div>
+      <div class="kpi"><strong>300 / 400 / 300</strong><span data-i18n="home.vocabDist">Vocabulary Low / Medium / High</span></div>
+      <div class="kpi"><strong>Reading · Vocabulary · Mixed</strong><span data-i18n="home.testTypes">Three test modes</span></div>
+      <div class="kpi"><strong data-i18n="home.adaptiveStrong">Adaptive</strong><span data-i18n="home.adaptive">Weak-topic and wrong-word recycling</span></div>
+    </div>
+  </section>
+</section>
+
+<section id="adminLoginView" class="hidden">
+  <div class="loginbox card panel">
+    <span class="eyebrow" data-i18n="admin.access">🛡️ Admin Access</span>
+    <h2 data-i18n="admin.schoolAdmin">School Administrator</h2>
+    <p class="sub" data-i18n="admin.localNote">This prototype stores account information in this browser.</p>
+    <div id="adminSetupBox">
+      <div class="grid2">
+        <div class="field"><label data-i18n="admin.name">Admin Name</label><input id="adminSetupName" type="text"></div>
+        <div class="field"><label data-i18n="common.pin">PIN</label><input id="adminSetupPin" type="password"></div>
+      </div>
+      <div class="btnrow"><button class="btn primary" onclick="createAdmin()" data-i18n="admin.create">Create Admin</button></div>
+    </div>
+    <div id="adminLoginBox" class="hidden">
+      <div class="field"><label data-i18n="common.pin">PIN</label><input id="adminLoginPin" type="password"></div>
+      <div class="btnrow"><button class="btn blue" onclick="adminLogin()" data-i18n="common.login">Login</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="adminView" class="hidden">
+  <section class="hero">
+    <div><span class="eyebrow" data-i18n="admin.dashboard">🛡️ Admin Dashboard</span><h1 id="adminWelcome">School Dashboard</h1><p data-i18n="admin.desc">View the entire school’s Reading, Vocabulary and Mixed test data.</p></div>
+    <div class="stats">
+      <div class="stat"><strong id="aTeachers">0</strong><span data-i18n="admin.teachers20">Teachers / 20</span></div>
+      <div class="stat"><strong id="aClasses">0</strong><span data-i18n="admin.classes100">Classes / 100</span></div>
+      <div class="stat"><strong id="aStudents">0</strong><span data-i18n="admin.enrollments">Student enrollments</span></div>
+      <div class="stat"><strong id="aAttempts">0</strong><span data-i18n="common.attempts">Test attempts</span></div>
+    </div>
+  </section>
+
+  <section class="card panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+      <div><h2 data-i18n="admin.teacherMgmt">Teacher Management</h2><p class="sub" style="margin-bottom:0" data-i18n="admin.teacherMgmtDesc">Create up to 20 Teacher IDs.</p></div>
+      <button class="btn primary" onclick="openModal('teacherModal')" data-i18n="admin.addTeacher">+ Add Teacher</button>
+    </div>
+    <div class="teachercards" id="adminTeacherCards" style="margin-top:16px"></div>
+  </section>
+
+  <section class="card panel">
+    <h2 data-i18n="admin.kpiTitle">School Learning KPIs</h2>
+    <div class="kpis">
+      <div class="kpi"><strong id="aOverall">0%</strong><span data-i18n="common.overallAvg">Overall Average</span></div>
+      <div class="kpi"><strong id="aReading">0%</strong><span data-i18n="common.readingAvg">Reading Average</span></div>
+      <div class="kpi"><strong id="aVocab">0%</strong><span data-i18n="common.vocabAvg">Vocabulary Average</span></div>
+      <div class="kpi"><strong id="aBelow">0</strong><span data-i18n="common.below60">Below 60%</span></div>
+    </div>
+    <div class="analytics">
+      <div><h3 data-i18n="common.weakReading">Weak Reading Topics</h3><div class="weakgrid" id="adminReadingWeak"></div></div>
+      <div><h3 data-i18n="common.weakVocab">Weak Vocabulary Words</h3><div class="weakgrid" id="adminVocabWeak"></div></div>
+    </div>
+  </section>
+
+  <section class="card panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+      <div>
+        <h2 data-i18n="content.title">Content Library</h2>
+        <p class="sub" style="margin-bottom:0" data-i18n="content.desc">Search and inspect the full Reading and Vocabulary content bank before deployment.</p>
+      </div>
+      <div class="chip">500 Reading · 1,000 Vocabulary</div>
+    </div>
+    <div class="toolbar" style="margin-top:16px">
+      <div class="field"><label data-i18n="content.search">Search content</label><input id="contentSearch" type="text" oninput="contentPage=1;renderContentLibrary()" placeholder="keyword / topic / word"></div>
+      <div class="field"><label data-i18n="content.type">Content Type</label><select id="contentType" onchange="contentPage=1;renderContentLibrary()"><option value="Reading">Reading</option><option value="Vocabulary">Vocabulary</option></select></div>
+      <div class="field"><label data-i18n="common.difficulty">Difficulty</label><select id="contentDiff" onchange="contentPage=1;renderContentLibrary()"><option value="All">All</option><option value="Low">Low</option><option value="Medium">Medium</option><option value="High">High</option></select></div>
+      <button class="btn secondary" onclick="downloadContentCSV()" data-i18n="content.csv">Download CSV</button>
+    </div>
+    <div class="tablewrap">
+      <table><thead><tr>
+        <th>ID</th><th data-i18n="content.category">Topic / Category</th><th data-i18n="common.difficulty">Difficulty</th><th data-i18n="content.item">Question / Word</th><th data-i18n="common.detail">Detail</th>
+      </tr></thead><tbody id="contentBody"></tbody></table>
+    </div>
+    <div class="btnrow" style="justify-content:space-between">
+      <button class="btn secondary" onclick="changeContentPage(-1)" data-i18n="common.previous">← Previous</button>
+      <span id="contentPageLabel" class="help"></span>
+      <button class="btn secondary" onclick="changeContentPage(1)" data-i18n="common.next">Next →</button>
+    </div>
+  </section>
+</section>
+
+<section id="teacherLoginView" class="hidden">
+  <div class="loginbox card panel">
+    <span class="eyebrow" data-i18n="teacher.loginBadge">🧑‍🏫 Teacher Login</span>
+    <h2 data-i18n="teacher.idLogin">Teacher ID Login</h2>
+    <div class="grid2">
+      <div class="field"><label data-i18n="teacher.id">Teacher ID</label><input id="teacherLoginId" type="text" placeholder="T001"></div>
+      <div class="field"><label data-i18n="common.pin">PIN</label><input id="teacherLoginPin" type="password"></div>
+    </div>
+    <div class="btnrow"><button class="btn blue" onclick="teacherLogin()" data-i18n="common.login">Login</button></div>
+  </div>
+</section>
+
+<section id="teacherView" class="hidden">
+  <section class="hero">
+    <div><span class="eyebrow" data-i18n="teacher.dashboard">🧑‍🏫 Teacher Dashboard</span><h1 id="teacherWelcome">Teacher</h1><p data-i18n="teacher.desc">Manage classes and compare Reading, Vocabulary and Overall performance.</p></div>
+    <div class="stats">
+      <div class="stat"><strong id="tClasses">0</strong><span data-i18n="teacher.classes5">Classes / 5</span></div>
+      <div class="stat"><strong id="tStudents">0</strong><span data-i18n="common.students">Students</span></div>
+      <div class="stat"><strong id="tAttempts">0</strong><span data-i18n="common.attempts">Attempts</span></div>
+      <div class="stat"><strong id="tAvg">0%</strong><span data-i18n="common.overallAvg">Overall Average</span></div>
+    </div>
+  </section>
+
+  <section class="card panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+      <div><h2 data-i18n="teacher.myClasses">My Classes</h2><p class="sub" style="margin-bottom:0" data-i18n="teacher.max5">Maximum five classes per teacher.</p></div>
+      <button class="btn primary" onclick="openCreateClass()" data-i18n="teacher.createClass">+ Create Class</button>
+    </div>
+    <div class="classcards" id="teacherClassCards" style="margin-top:16px"></div>
+  </section>
+
+  <section class="card panel">
+    <div class="grid2">
+      <div class="field"><label data-i18n="teacher.selectedClass">Selected Class</label><select id="teacherClassSelect" onchange="renderTeacherClass()"></select></div>
+      <div style="display:flex;align-items:end;justify-content:flex-end;gap:7px">
+        <button class="btn secondary" onclick="openRoster()" data-i18n="teacher.roster">Roster</button>
+        <button class="btn blue" onclick="openModal('importModal')" data-i18n="teacher.importResult">Import Result</button>
+      </div>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><strong id="tcStudents">0</strong><span data-i18n="teacher.students15">Students / 15</span></div>
+      <div class="kpi"><strong id="tcReading">0%</strong><span data-i18n="common.readingAvg">Reading Average</span></div>
+      <div class="kpi"><strong id="tcVocab">0%</strong><span data-i18n="common.vocabAvg">Vocabulary Average</span></div>
+      <div class="kpi"><strong id="tcOverall">0%</strong><span data-i18n="common.overallAvg">Overall Average</span></div>
+    </div>
+    <div class="toolbar">
+      <div class="field"><label data-i18n="common.search">Search</label><input id="tcSearch" type="text" oninput="renderTeacherClass()"></div>
+      <div class="field"><label data-i18n="common.testType">Test Type</label><select id="tcType" onchange="renderTeacherClass()"><option value="All">All</option><option value="Reading">Reading</option><option value="Vocabulary">Vocabulary</option><option value="Mixed">Mixed</option></select></div>
+      <div class="field"><label data-i18n="common.difficulty">Difficulty</label><select id="tcDiff" onchange="renderTeacherClass()"><option value="All">All</option><option value="Low">Low</option><option value="Medium">Medium</option><option value="High">High</option></select></div>
+      <button class="btn secondary" onclick="exportClassCSV()" data-i18n="teacher.exportCSV">Export CSV</button>
+    </div>
+    <div class="tablewrap"><table><thead><tr>
+      <th data-i18n="common.date">Date</th><th data-i18n="common.studentId">Student ID</th><th data-i18n="common.name">Name</th><th data-i18n="common.testType">Type</th><th data-i18n="common.difficulty">Difficulty</th><th data-i18n="common.overall">Overall</th><th data-i18n="common.reading">Reading</th><th data-i18n="common.vocabulary">Vocabulary</th><th data-i18n="common.growth">Growth</th><th data-i18n="common.detail">Detail</th>
+    </tr></thead><tbody id="teacherGradeBody"></tbody></table></div>
+  </section>
+
+  <div class="analytics">
+    <section class="card panel"><h2 data-i18n="common.weakReading">Weak Reading Topics</h2><div class="weakgrid" id="teacherReadingWeak"></div></section>
+    <section class="card panel"><h2 data-i18n="common.weakVocab">Weak Vocabulary Words</h2><div class="weakgrid" id="teacherVocabWeak"></div></section>
+  </div>
+
+  <section class="card panel">
+    <h2 data-i18n="teacher.growth">Student Growth</h2>
+    <div class="grid2">
+      <div class="field"><label data-i18n="common.student">Student</label><select id="growthStudentSelect" onchange="drawGrowth()"></select></div>
+      <div class="field"><label data-i18n="teacher.metric">Metric</label><select id="growthMetric" onchange="drawGrowth()"><option value="overallScore">Overall</option><option value="readingScore">Reading</option><option value="vocabScore">Vocabulary</option></select></div>
+    </div>
+    <canvas id="growthCanvas" width="800" height="300"></canvas><div id="growthText" class="help"></div>
+  </section>
+</section>
+
+<section id="studentView" class="hidden">
+  <section class="hero">
+    <div><span class="eyebrow" data-i18n="student.badge">🎓 Student Test</span><h1><span data-i18n="student.title1">Choose your mode.</span><br><span class="highlight-green" data-i18n="student.title2">Questions always stay in English.</span></h1><p data-i18n="student.desc">The menu and instructions can be shown in English, Uzbek or Russian, while assessment questions remain English.</p></div>
+    <div class="stats">
+      <div class="stat"><strong>Reading</strong><span data-i18n="student.readingDesc">Comprehension</span></div>
+      <div class="stat"><strong>Vocabulary</strong><span data-i18n="student.vocabDesc">Meaning + context</span></div>
+      <div class="stat"><strong>Mixed</strong><span data-i18n="student.mixedDesc">Combined test</span></div>
+      <div class="stat"><strong>Adaptive</strong><span data-i18n="student.reviewDesc">Wrong-word review</span></div>
+    </div>
+  </section>
+
+  <section class="card panel" id="joinPanel">
+    <h2 data-i18n="student.joinClass">Join Class</h2>
+    <div class="grid2">
+      <div class="field"><label data-i18n="student.classCode">Class Code</label><input id="studentClassCode" type="text" placeholder="UZ-AB12"></div>
+      <div style="display:flex;align-items:end"><button class="btn blue" style="width:100%" onclick="joinClass()" data-i18n="common.join">Join</button></div>
+    </div>
+    <div id="joinedInfo" class="notice hidden" style="margin-top:14px"></div>
+  </section>
+
+  <section class="card panel hidden" id="studentSetup">
+    <h2 data-i18n="student.setup">Test Setup</h2>
+    <div class="grid2">
+      <div class="field"><label data-i18n="common.studentId">Student ID</label><input id="studentId" type="text"></div>
+      <div class="field"><label data-i18n="common.name">Name</label><input id="studentName" type="text"></div>
+    </div>
+    <div style="font-weight:950;margin:17px 0 8px" data-i18n="common.testType">Test Type</div>
+    <div class="typegrid">
+      <button class="typebtn active" onclick="chooseType('Reading',this)"><strong data-i18n="mode.reading">📘 Reading</strong><p data-i18n="student.typeReading">Reading passages and comprehension questions.</p></button>
+      <button class="typebtn" onclick="chooseType('Vocabulary',this)"><strong data-i18n="mode.vocab">🔤 Vocabulary</strong><p data-i18n="student.typeVocab">English–Uzbek meanings and English context questions.</p></button>
+      <button class="typebtn" onclick="chooseType('Mixed',this)"><strong data-i18n="mode.mixed">🧩 Mixed</strong><p data-i18n="student.typeMixed">Reading and Vocabulary in one test.</p></button>
+    </div>
+    <div style="font-weight:950;margin:17px 0 8px" data-i18n="common.difficulty">Difficulty</div>
+    <div class="diffcards">
+      <button class="diff" onclick="chooseDiff('Low',this)"><strong data-i18n="diff.lowTitle">🟢 Low</strong><small data-i18n="diff.lowDesc">Basic and everyday English</small></button>
+      <button class="diff active" onclick="chooseDiff('Medium',this)"><strong data-i18n="diff.mediumTitle">🟡 Medium</strong><small data-i18n="diff.mediumDesc">School and IELTS foundation</small></button>
+      <button class="diff" onclick="chooseDiff('High',this)"><strong data-i18n="diff.highTitle">🔴 High</strong><small data-i18n="diff.highDesc">Academic and advanced context</small></button>
+    </div>
+    <div class="grid2" style="margin-top:14px">
+      <div class="field"><label data-i18n="common.questions">Questions</label><select id="studentCount"><option value="10">10</option><option value="15">15</option><option value="20">20</option></select></div>
+      <div class="field"><label data-i18n="common.time">Time</label><select id="studentTime"><option value="15">15 min</option><option value="20" selected>20 min</option><option value="30">30 min</option></select></div>
+    </div>
+    <div class="btnrow"><button class="btn primary" onclick="startTest()" data-i18n="student.start">Start Test</button></div>
+  </section>
+
+  <section class="exam" id="exam">
+    <article class="card">
+      <div class="examhead"><h2 id="contentHead">Learning Content</h2><div><span class="tag" id="contentTag"></span> <span class="tag" id="diffTag"></span></div></div>
+      <div class="scroll"><div class="passage" id="contentPane"></div></div>
+      <div class="qnav" id="qnav"></div>
+    </article>
+    <aside class="card">
+      <div class="examhead"><h2>Question</h2><div><span class="tag" id="studentTag"></span> <span class="tag" id="timer">20:00</span></div></div>
+      <div class="scroll"><div class="qwrap"><div class="qnum" id="qnum">1</div><div class="qtitle" id="qtitle"></div><div id="options"></div>
+      <div class="btnrow" style="justify-content:space-between"><button class="btn secondary" onclick="prevQ()" data-i18n="common.previous">← Previous</button><button class="btn secondary" onclick="nextQ()" data-i18n="common.next">Next →</button></div></div></div>
+      <div class="bottom"><div class="progress"><div class="plabel"><span data-i18n="common.answered">Answered</span><span id="progressText">0/10</span></div><div class="pline"><div class="pbar" id="pbar"></div></div></div><button class="btn primary" onclick="submitTest(false)" data-i18n="common.submit">Submit</button></div>
+    </aside>
+  </section>
+
+  <section class="card result" id="result">
+    <div class="resultlayout">
+      <div>
+        <div class="ring" id="ring"><strong id="scoreText">0%</strong></div>
+        <h2 id="resultTitle" style="text-align:center"></h2><p id="resultSummary" style="text-align:center;color:var(--muted)"></p>
+        <div class="rgrid">
+          <div class="rbox"><strong id="rOverall">0%</strong><span data-i18n="common.overall">Overall</span></div>
+          <div class="rbox"><strong id="rReading">—</strong><span data-i18n="common.reading">Reading</span></div>
+          <div class="rbox"><strong id="rVocab">—</strong><span data-i18n="common.vocabulary">Vocabulary</span></div>
+          <div class="rbox"><strong id="rCorrect">0</strong><span data-i18n="common.correct">Correct</span></div>
+          <div class="rbox"><strong id="rTime">0m</strong><span data-i18n="common.time">Time</span></div>
+        </div>
+        <div class="section"><h3 style="margin-top:0" data-i18n="student.nextFocus">Next Focus</h3><div id="nextFocus"></div></div>
+        <div class="section"><h3 style="margin-top:0" data-i18n="student.review">Answer Review</h3><div id="review"></div></div>
+      </div>
+      <aside><div class="sidecard"><h3 data-i18n="student.resultTools">📄 Result Tools</h3><p class="help" data-i18n="student.resultNote">Results are stored automatically on the same browser. Use Result Code when submitting from another device.</p><button class="btn primary" style="width:100%;margin:7px 0" onclick="downloadStudentPDF()" data-i18n="student.downloadPDF">Download PDF</button><button class="btn secondary" style="width:100%;margin-bottom:9px" onclick="copyResult()" data-i18n="student.copyResult">Copy Result Code</button><div class="token" id="resultToken"></div></div></aside>
+    </div>
+  </section>
+</section>
+
+<div class="footer"><b>CHALLON_NDKTUAL_ENGLISH TEST</b> · <span data-i18n="footer.text">Multilingual interface · English-only assessment questions</span></div>
+</main>
+
+<div class="modal" id="teacherModal"><div class="modalbox"><div class="modalhead"><h2 data-i18n="modal.addTeacher">Add Teacher</h2><button class="btn secondary" onclick="closeModal('teacherModal')" data-i18n="common.close">Close</button></div><div class="grid3"><div class="field"><label data-i18n="teacher.id">Teacher ID</label><input id="newTeacherId" type="text" placeholder="T001"></div><div class="field"><label data-i18n="common.name">Name</label><input id="newTeacherName" type="text"></div><div class="field"><label data-i18n="common.pin">PIN</label><input id="newTeacherPin" type="password"></div></div><div class="btnrow"><button class="btn primary" onclick="createTeacher()" data-i18n="common.create">Create</button></div></div></div>
+
+<div class="modal" id="classModal"><div class="modalbox"><div class="modalhead"><h2 data-i18n="modal.createClass">Create Class</h2><button class="btn secondary" onclick="closeModal('classModal')" data-i18n="common.close">Close</button></div><div class="grid2"><div class="field"><label data-i18n="modal.className">Class Name</label><input id="newClassName" type="text"></div><div class="field"><label data-i18n="modal.course">Course / Grade</label><input id="newClassCourse" type="text"></div></div><div class="btnrow"><button class="btn primary" onclick="createClass()" data-i18n="common.create">Create</button></div></div></div>
+
+<div class="modal" id="rosterModal"><div class="modalbox"><div class="modalhead"><h2 data-i18n="modal.roster">Class Roster</h2><button class="btn secondary" onclick="closeModal('rosterModal')" data-i18n="common.close">Close</button></div><div class="grid2"><div class="field"><label data-i18n="common.studentId">Student ID</label><input id="rosterId" type="text"></div><div class="field"><label data-i18n="common.name">Name</label><input id="rosterName" type="text"></div></div><div class="btnrow"><button class="btn primary" onclick="addRoster()" data-i18n="modal.addStudent">Add Student</button></div><div class="tablewrap" style="margin-top:13px"><table style="min-width:500px"><thead><tr><th data-i18n="common.studentId">Student ID</th><th data-i18n="common.name">Name</th><th data-i18n="common.action">Action</th></tr></thead><tbody id="rosterBody"></tbody></table></div></div></div>
+
+<div class="modal" id="importModal"><div class="modalbox"><div class="modalhead"><h2 data-i18n="modal.import">Import Student Result</h2><button class="btn secondary" onclick="closeModal('importModal')" data-i18n="common.close">Close</button></div><div class="field"><label data-i18n="student.resultCode">Result Code</label><textarea id="importText"></textarea></div><div class="btnrow"><button class="btn blue" onclick="importResult()" data-i18n="common.import">Import</button></div></div></div>
+
+
+<div class="modal" id="contentDetailModal"><div class="modalbox">
+  <div class="modalhead"><h2 id="contentDetailTitle" data-i18n="content.detailTitle">Content Detail</h2><button class="btn secondary" onclick="closeModal('contentDetailModal')" data-i18n="common.close">Close</button></div>
+  <div id="contentDetailBody" class="section"></div>
+</div>
+
+<div class="modal" id="detailModal"><div class="modalbox"><div class="modalhead"><h2 id="detailTitle" data-i18n="modal.studentDetail">Student Detail</h2><button class="btn secondary" onclick="closeModal('detailModal')" data-i18n="common.close">Close</button></div><canvas id="detailCanvas" width="800" height="300"></canvas><div id="detailInfo" class="section"></div></div></div>
+
+<script src="questions.js"></script>
+<script src="vocabulary.js"></script>
+<script>
+const I18N={
+en:{
+"nav.home":"Home","nav.student":"Student","nav.teacher":"Teacher","nav.admin":"Admin","lang.note":"UI language only · Test questions stay in English",
+"home.eyebrow":"🌐 3-language classroom interface","home.title1":"English assessment for","home.desc":"The interface can switch instantly between English, Uzbek and Russian. Reading passages and all test questions remain in English so that the assessment standard stays consistent.",
+"home.stat1":"Reading questions","home.stat2":"Vocabulary items","home.stat3":"Vocabulary variations","home.stat4":"Instant UI language","home.roleTitle":"Choose your role","home.contentTitle":"Content & difficulty structure","home.readDist":"Reading Low / Medium / High","home.vocabDist":"Vocabulary Low / Medium / High","home.testTypes":"Three test modes","home.adaptiveStrong":"Adaptive","home.adaptive":"Weak-topic and wrong-word recycling",
+"role.admin.title":"🛡️ Admin","role.admin.desc":"Manage teachers, classes and school-wide learning data.","role.teacher.title":"🧑‍🏫 Teacher","role.teacher.desc":"Manage up to five classes and monitor student performance.","role.student.title":"🎓 Student","role.student.desc":"Join a class and take Reading, Vocabulary or Mixed tests.",
+"admin.access":"🛡️ Admin Access","admin.schoolAdmin":"School Administrator","admin.localNote":"This prototype stores account information in this browser.","admin.name":"Admin Name","admin.create":"Create Admin","admin.dashboard":"🛡️ Admin Dashboard","admin.desc":"View the entire school’s Reading, Vocabulary and Mixed test data.","admin.teachers20":"Teachers / 20","admin.classes100":"Classes / 100","admin.enrollments":"Student enrollments","admin.teacherMgmt":"Teacher Management","admin.teacherMgmtDesc":"Create up to 20 Teacher IDs.","admin.addTeacher":"+ Add Teacher","admin.kpiTitle":"School Learning KPIs","content.title":"Content Library","content.desc":"Search and inspect the full Reading and Vocabulary content bank before deployment.","content.search":"Search content","content.type":"Content Type","content.csv":"Download CSV","content.category":"Topic / Category","content.item":"Question / Word","content.detailTitle":"Content Detail","mode.reading":"📘 Reading","mode.vocab":"🔤 Vocabulary","mode.mixed":"🧩 Mixed",
+"teacher.loginBadge":"🧑‍🏫 Teacher Login","teacher.idLogin":"Teacher ID Login","teacher.id":"Teacher ID","teacher.dashboard":"🧑‍🏫 Teacher Dashboard","teacher.desc":"Manage classes and compare Reading, Vocabulary and Overall performance.","teacher.classes5":"Classes / 5","teacher.myClasses":"My Classes","teacher.max5":"Maximum five classes per teacher.","teacher.createClass":"+ Create Class","teacher.selectedClass":"Selected Class","teacher.roster":"Roster","teacher.importResult":"Import Result","teacher.students15":"Students / 15","teacher.exportCSV":"Export CSV","teacher.growth":"Student Growth","teacher.metric":"Metric",
+"student.badge":"🎓 Student Test","student.title1":"Choose your mode.","student.title2":"Questions always stay in English.","student.desc":"The menu and instructions can be shown in English, Uzbek or Russian, while assessment questions remain English.","student.readingDesc":"Comprehension","student.vocabDesc":"Meaning + context","student.mixedDesc":"Combined test","student.reviewDesc":"Wrong-word review","student.joinClass":"Join Class","student.classCode":"Class Code","student.setup":"Test Setup","student.typeReading":"Reading passages and comprehension questions.","student.typeVocab":"English–Uzbek meanings and English context questions.","student.typeMixed":"Reading and Vocabulary in one test.","student.start":"Start Test","student.nextFocus":"Next Focus","student.review":"Answer Review","student.resultTools":"📄 Result Tools","student.resultNote":"Results are stored automatically on the same browser. Use Result Code when submitting from another device.","student.downloadPDF":"Download PDF","student.copyResult":"Copy Result Code","student.resultCode":"Result Code",
+"diff.lowTitle":"🟢 Low","diff.lowDesc":"Basic and everyday English","diff.mediumTitle":"🟡 Medium","diff.mediumDesc":"School and IELTS foundation","diff.highTitle":"🔴 High","diff.highDesc":"Academic and advanced context",
+"common.pin":"PIN","common.login":"Login","common.attempts":"Attempts","common.overallAvg":"Overall Average","common.readingAvg":"Reading Average","common.vocabAvg":"Vocabulary Average","common.below60":"Below 60%","common.weakReading":"Weak Reading Topics","common.weakVocab":"Weak Vocabulary Words","common.students":"Students","common.search":"Search","common.testType":"Test Type","common.difficulty":"Difficulty","common.date":"Date","common.studentId":"Student ID","common.name":"Name","common.overall":"Overall","common.reading":"Reading","common.vocabulary":"Vocabulary","common.growth":"Growth","common.detail":"Detail","common.student":"Student","common.join":"Join","common.questions":"Questions","common.time":"Time","common.previous":"← Previous","common.next":"Next →","common.answered":"Answered","common.submit":"Submit","common.correct":"Correct","common.close":"Close","common.create":"Create","common.action":"Action","common.import":"Import",
+"modal.addTeacher":"Add Teacher","modal.createClass":"Create Class","modal.className":"Class Name","modal.course":"Course / Grade","modal.roster":"Class Roster","modal.addStudent":"Add Student","modal.import":"Import Student Result","modal.studentDetail":"Student Detail","footer.text":"Multilingual interface · English-only assessment questions",
+"msg.enterAdmin":"Enter admin name and a 4–8 digit PIN.","msg.badPin":"Incorrect PIN.","msg.teacherMax":"Maximum 20 teachers.","msg.teacherData":"Enter Teacher ID, name and a 4–8 digit PIN.","msg.teacherExists":"Teacher ID already exists.","msg.badTeacher":"Incorrect Teacher ID or PIN.","msg.classMax":"Maximum five classes per teacher.","msg.className":"Enter a class name.","msg.classCopied":"Class Code copied.","msg.noClass":"No class selected.","msg.noTeachers":"No teachers yet.","msg.noClasses":"No classes yet.","msg.noResults":"No results yet.","msg.enterStudent":"Enter Student ID or Name.","msg.rosterMax":"Maximum 15 students per class.","msg.studentExists":"Student ID already exists in this class.","msg.classNotFound":"Class Code not found on this browser.","msg.joinFirst":"Join a class first.","msg.notRoster":"This Student ID is not registered in the class roster.","msg.unanswered":"questions are unanswered. Submit anyway?","msg.resultCopied":"Result Code copied.","msg.invalidResult":"Invalid Result Code.","msg.wrongClass":"This result is not for one of your classes.","msg.imported":"Result imported.","msg.good":"Good progress.","msg.review":"Review the weak areas below.","msg.none":"None","msg.balanced":"Balanced"
+},
+uz:{
+"nav.home":"Bosh sahifa","nav.student":"O‘quvchi","nav.teacher":"O‘qituvchi","nav.admin":"Admin","lang.note":"Faqat interfeys tili · Test savollari ingliz tilida qoladi",
+"home.eyebrow":"🌐 3 tilli sinf interfeysi","home.title1":"Ingliz tili baholash tizimi","home.desc":"Interfeysni ingliz, o‘zbek va rus tillari orasida darhol almashtirish mumkin. Baholash standarti bir xil bo‘lishi uchun reading matnlari va barcha test savollari ingliz tilida qoladi.",
+"home.stat1":"Reading savollari","home.stat2":"Vocabulary birliklari","home.stat3":"Vocabulary variantlari","home.stat4":"Tezkor interfeys tili","home.roleTitle":"Rolni tanlang","home.contentTitle":"Kontent va daraja tuzilishi","home.readDist":"Reading Past / O‘rta / Yuqori","home.vocabDist":"Vocabulary Past / O‘rta / Yuqori","home.testTypes":"Uchta test turi","home.adaptiveStrong":"Moslashuvchan","home.adaptive":"Zaif mavzu va xato so‘zlarni qayta berish",
+"role.admin.title":"🛡️ Admin","role.admin.desc":"O‘qituvchilar, sinflar va maktab bo‘yicha natijalarni boshqaring.","role.teacher.title":"🧑‍🏫 O‘qituvchi","role.teacher.desc":"5 tagacha sinfni boshqaring va o‘quvchi natijalarini kuzating.","role.student.title":"🎓 O‘quvchi","role.student.desc":"Sinfga kiring va Reading, Vocabulary yoki Mixed test bajaring.",
+"admin.access":"🛡️ Admin kirishi","admin.schoolAdmin":"Maktab administratori","admin.localNote":"Ushbu prototip hisob ma’lumotlarini shu brauzerda saqlaydi.","admin.name":"Admin ismi","admin.create":"Admin yaratish","admin.dashboard":"🛡️ Admin paneli","admin.desc":"Maktab bo‘yicha Reading, Vocabulary va Mixed test ma’lumotlarini ko‘ring.","admin.teachers20":"O‘qituvchilar / 20","admin.classes100":"Sinflar / 100","admin.enrollments":"O‘quvchi ro‘yxatlari","admin.teacherMgmt":"O‘qituvchilar boshqaruvi","admin.teacherMgmtDesc":"20 tagacha Teacher ID yarating.","admin.addTeacher":"+ O‘qituvchi qo‘shish","admin.kpiTitle":"Maktab o‘quv KPIlari","content.title":"Kontent kutubxonasi","content.desc":"Internetga joylashdan oldin barcha Reading va Vocabulary kontentini qidiring va tekshiring.","content.search":"Kontent qidirish","content.type":"Kontent turi","content.csv":"CSV yuklash","content.category":"Mavzu / Kategoriya","content.item":"Savol / So‘z","content.detailTitle":"Kontent tafsiloti","mode.reading":"📘 O‘qish","mode.vocab":"🔤 Lug‘at","mode.mixed":"🧩 Aralash",
+"teacher.loginBadge":"🧑‍🏫 O‘qituvchi kirishi","teacher.idLogin":"Teacher ID bilan kirish","teacher.id":"Teacher ID","teacher.dashboard":"🧑‍🏫 O‘qituvchi paneli","teacher.desc":"Sinflarni boshqaring va Reading, Vocabulary hamda Overall natijalarni taqqoslang.","teacher.classes5":"Sinflar / 5","teacher.myClasses":"Mening sinflarim","teacher.max5":"Har bir o‘qituvchiga maksimum 5 ta sinf.","teacher.createClass":"+ Sinf yaratish","teacher.selectedClass":"Tanlangan sinf","teacher.roster":"Ro‘yxat","teacher.importResult":"Natijani import qilish","teacher.students15":"O‘quvchilar / 15","teacher.exportCSV":"CSV yuklash","teacher.growth":"O‘quvchi rivojlanishi","teacher.metric":"Ko‘rsatkich",
+"student.badge":"🎓 O‘quvchi testi","student.title1":"Test turini tanlang.","student.title2":"Savollar doim ingliz tilida.","student.desc":"Menyu va yo‘riqnomalar ingliz, o‘zbek yoki rus tilida bo‘lishi mumkin, test savollari esa ingliz tilida qoladi.","student.readingDesc":"Matnni tushunish","student.vocabDesc":"Ma’no + kontekst","student.mixedDesc":"Aralash test","student.reviewDesc":"Xato so‘zlarni qaytarish","student.joinClass":"Sinfga kirish","student.classCode":"Sinf kodi","student.setup":"Test sozlamalari","student.typeReading":"Reading matnlari va tushunish savollari.","student.typeVocab":"English–Uzbek ma’no va inglizcha kontekst savollari.","student.typeMixed":"Reading va Vocabulary bitta testda.","student.start":"Testni boshlash","student.nextFocus":"Keyingi fokus","student.review":"Javoblarni ko‘rib chiqish","student.resultTools":"📄 Natija vositalari","student.resultNote":"Natijalar shu brauzerda avtomatik saqlanadi. Boshqa qurilmadan topshirishda Result Code ishlating.","student.downloadPDF":"PDF yuklash","student.copyResult":"Result Code nusxalash","student.resultCode":"Natija kodi",
+"diff.lowTitle":"🟢 Past","diff.lowDesc":"Asosiy va kundalik ingliz tili","diff.mediumTitle":"🟡 O‘rta","diff.mediumDesc":"Maktab va IELTS bazasi","diff.highTitle":"🔴 Yuqori","diff.highDesc":"Akademik va murakkab kontekst",
+"common.pin":"PIN","common.login":"Kirish","common.attempts":"Urinishlar","common.overallAvg":"Umumiy o‘rtacha","common.readingAvg":"Reading o‘rtacha","common.vocabAvg":"Vocabulary o‘rtacha","common.below60":"60% dan past","common.weakReading":"Zaif Reading mavzulari","common.weakVocab":"Zaif Vocabulary so‘zlari","common.students":"O‘quvchilar","common.search":"Qidirish","common.testType":"Test turi","common.difficulty":"Daraja","common.date":"Sana","common.studentId":"O‘quvchi ID","common.name":"Ism","common.overall":"Umumiy","common.reading":"Reading","common.vocabulary":"Vocabulary","common.growth":"O‘sish","common.detail":"Batafsil","common.student":"O‘quvchi","common.join":"Kirish","common.questions":"Savollar","common.time":"Vaqt","common.previous":"← Oldingi","common.next":"Keyingi →","common.answered":"Javob berildi","common.submit":"Topshirish","common.correct":"To‘g‘ri","common.close":"Yopish","common.create":"Yaratish","common.action":"Amal","common.import":"Import",
+"modal.addTeacher":"O‘qituvchi qo‘shish","modal.createClass":"Sinf yaratish","modal.className":"Sinf nomi","modal.course":"Kurs / Sinf bosqichi","modal.roster":"Sinf ro‘yxati","modal.addStudent":"O‘quvchi qo‘shish","modal.import":"O‘quvchi natijasini import qilish","modal.studentDetail":"O‘quvchi tafsiloti","footer.text":"Ko‘p tilli interfeys · Baholash savollari faqat ingliz tilida",
+"msg.enterAdmin":"Admin ismi va 4–8 xonali PIN kiriting.","msg.badPin":"PIN noto‘g‘ri.","msg.teacherMax":"Maksimum 20 o‘qituvchi.","msg.teacherData":"Teacher ID, ism va 4–8 xonali PIN kiriting.","msg.teacherExists":"Teacher ID allaqachon mavjud.","msg.badTeacher":"Teacher ID yoki PIN noto‘g‘ri.","msg.classMax":"Har bir o‘qituvchiga maksimum 5 ta sinf.","msg.className":"Sinf nomini kiriting.","msg.classCopied":"Sinf kodi nusxalandi.","msg.noClass":"Sinf tanlanmagan.","msg.noTeachers":"Hozircha o‘qituvchi yo‘q.","msg.noClasses":"Hozircha sinf yo‘q.","msg.noResults":"Hozircha natija yo‘q.","msg.enterStudent":"O‘quvchi ID yoki ismni kiriting.","msg.rosterMax":"Bir sinfda maksimum 15 o‘quvchi.","msg.studentExists":"Bu Student ID sinfda mavjud.","msg.classNotFound":"Bu brauzerda sinf kodi topilmadi.","msg.joinFirst":"Avval sinfga kiring.","msg.notRoster":"Bu Student ID sinf ro‘yxatida yo‘q.","msg.unanswered":"ta savol javobsiz. Baribir topshirasizmi?","msg.resultCopied":"Result Code nusxalandi.","msg.invalidResult":"Result Code noto‘g‘ri.","msg.wrongClass":"Bu natija sizning sinfingizga tegishli emas.","msg.imported":"Natija import qilindi.","msg.good":"Yaxshi rivojlanish.","msg.review":"Quyidagi zaif joylarni ko‘rib chiqing.","msg.none":"Yo‘q","msg.balanced":"Muvozanatli"
+},
+ru:{
+"nav.home":"Главная","nav.student":"Ученик","nav.teacher":"Учитель","nav.admin":"Админ","lang.note":"Меняется только интерфейс · Вопросы теста остаются на английском",
+"home.eyebrow":"🌐 Интерфейс класса на 3 языках","home.title1":"Тестирование английского для","home.desc":"Интерфейс мгновенно переключается между английским, узбекским и русским языками. Тексты Reading и все тестовые вопросы остаются на английском, чтобы стандарт оценки был единым.",
+"home.stat1":"Вопросы Reading","home.stat2":"Единицы Vocabulary","home.stat3":"Варианты Vocabulary","home.stat4":"Мгновенный язык интерфейса","home.roleTitle":"Выберите роль","home.contentTitle":"Структура контента и уровней","home.readDist":"Reading Низкий / Средний / Высокий","home.vocabDist":"Vocabulary Низкий / Средний / Высокий","home.testTypes":"Три режима теста","home.adaptiveStrong":"Адаптивно","home.adaptive":"Повтор слабых тем и ошибочных слов",
+"role.admin.title":"🛡️ Администратор","role.admin.desc":"Управление учителями, классами и данными всей школы.","role.teacher.title":"🧑‍🏫 Учитель","role.teacher.desc":"До пяти классов и мониторинг результатов учеников.","role.student.title":"🎓 Ученик","role.student.desc":"Войти в класс и пройти Reading, Vocabulary или Mixed тест.",
+"admin.access":"🛡️ Вход администратора","admin.schoolAdmin":"Администратор школы","admin.localNote":"В этом прототипе данные аккаунта хранятся в этом браузере.","admin.name":"Имя администратора","admin.create":"Создать администратора","admin.dashboard":"🛡️ Панель администратора","admin.desc":"Просматривайте данные Reading, Vocabulary и Mixed тестов по всей школе.","admin.teachers20":"Учителя / 20","admin.classes100":"Классы / 100","admin.enrollments":"Регистрации учеников","admin.teacherMgmt":"Управление учителями","admin.teacherMgmtDesc":"Создайте до 20 Teacher ID.","admin.addTeacher":"+ Добавить учителя","admin.kpiTitle":"Учебные KPI школы","content.title":"Библиотека контента","content.desc":"Найдите и проверьте весь контент Reading и Vocabulary перед публикацией.","content.search":"Поиск контента","content.type":"Тип контента","content.csv":"Скачать CSV","content.category":"Тема / Категория","content.item":"Вопрос / Слово","content.detailTitle":"Детали контента","mode.reading":"📘 Чтение","mode.vocab":"🔤 Лексика","mode.mixed":"🧩 Смешанный",
+"teacher.loginBadge":"🧑‍🏫 Вход учителя","teacher.idLogin":"Вход по Teacher ID","teacher.id":"Teacher ID","teacher.dashboard":"🧑‍🏫 Панель учителя","teacher.desc":"Управляйте классами и сравнивайте Reading, Vocabulary и общий результат.","teacher.classes5":"Классы / 5","teacher.myClasses":"Мои классы","teacher.max5":"Максимум пять классов на учителя.","teacher.createClass":"+ Создать класс","teacher.selectedClass":"Выбранный класс","teacher.roster":"Список","teacher.importResult":"Импорт результата","teacher.students15":"Ученики / 15","teacher.exportCSV":"Экспорт CSV","teacher.growth":"Динамика ученика","teacher.metric":"Показатель",
+"student.badge":"🎓 Тест ученика","student.title1":"Выберите режим.","student.title2":"Вопросы всегда на английском.","student.desc":"Меню и инструкции можно показать на английском, узбекском или русском, но вопросы теста остаются на английском.","student.readingDesc":"Понимание текста","student.vocabDesc":"Значение + контекст","student.mixedDesc":"Комбинированный тест","student.reviewDesc":"Повтор ошибочных слов","student.joinClass":"Войти в класс","student.classCode":"Код класса","student.setup":"Настройка теста","student.typeReading":"Тексты Reading и вопросы на понимание.","student.typeVocab":"English–Uzbek значения и вопросы по английскому контексту.","student.typeMixed":"Reading и Vocabulary в одном тесте.","student.start":"Начать тест","student.nextFocus":"Следующий фокус","student.review":"Разбор ответов","student.resultTools":"📄 Результат","student.resultNote":"Результаты автоматически сохраняются в этом браузере. Для другого устройства используйте Result Code.","student.downloadPDF":"Скачать PDF","student.copyResult":"Копировать Result Code","student.resultCode":"Код результата",
+"diff.lowTitle":"🟢 Низкий","diff.lowDesc":"Базовый и повседневный английский","diff.mediumTitle":"🟡 Средний","diff.mediumDesc":"Школьный уровень и база IELTS","diff.highTitle":"🔴 Высокий","diff.highDesc":"Академический и сложный контекст",
+"common.pin":"PIN","common.login":"Войти","common.attempts":"Попытки","common.overallAvg":"Средний общий","common.readingAvg":"Средний Reading","common.vocabAvg":"Средний Vocabulary","common.below60":"Ниже 60%","common.weakReading":"Слабые темы Reading","common.weakVocab":"Слабые слова Vocabulary","common.students":"Ученики","common.search":"Поиск","common.testType":"Тип теста","common.difficulty":"Уровень","common.date":"Дата","common.studentId":"ID ученика","common.name":"Имя","common.overall":"Общий","common.reading":"Reading","common.vocabulary":"Vocabulary","common.growth":"Рост","common.detail":"Подробнее","common.student":"Ученик","common.join":"Войти","common.questions":"Вопросы","common.time":"Время","common.previous":"← Назад","common.next":"Далее →","common.answered":"Отвечено","common.submit":"Отправить","common.correct":"Верно","common.close":"Закрыть","common.create":"Создать","common.action":"Действие","common.import":"Импорт",
+"modal.addTeacher":"Добавить учителя","modal.createClass":"Создать класс","modal.className":"Название класса","modal.course":"Курс / Класс","modal.roster":"Список класса","modal.addStudent":"Добавить ученика","modal.import":"Импорт результата ученика","modal.studentDetail":"Данные ученика","footer.text":"Многоязычный интерфейс · Вопросы оценки только на английском",
+"msg.enterAdmin":"Введите имя администратора и PIN из 4–8 цифр.","msg.badPin":"Неверный PIN.","msg.teacherMax":"Максимум 20 учителей.","msg.teacherData":"Введите Teacher ID, имя и PIN из 4–8 цифр.","msg.teacherExists":"Такой Teacher ID уже существует.","msg.badTeacher":"Неверный Teacher ID или PIN.","msg.classMax":"Максимум 5 классов на учителя.","msg.className":"Введите название класса.","msg.classCopied":"Код класса скопирован.","msg.noClass":"Класс не выбран.","msg.noTeachers":"Учителей пока нет.","msg.noClasses":"Классов пока нет.","msg.noResults":"Результатов пока нет.","msg.enterStudent":"Введите Student ID или имя.","msg.rosterMax":"Максимум 15 учеников в классе.","msg.studentExists":"Этот Student ID уже есть в классе.","msg.classNotFound":"Код класса не найден в этом браузере.","msg.joinFirst":"Сначала войдите в класс.","msg.notRoster":"Этот Student ID отсутствует в списке класса.","msg.unanswered":"вопросов без ответа. Всё равно отправить?","msg.resultCopied":"Result Code скопирован.","msg.invalidResult":"Неверный Result Code.","msg.wrongClass":"Этот результат не относится к вашему классу.","msg.imported":"Результат импортирован.","msg.good":"Хороший прогресс.","msg.review":"Повторите слабые области ниже.","msg.none":"Нет","msg.balanced":"Сбалансировано"
+}};
+let currentLang=localStorage.getItem("challon_ui_lang")||"en";
+function tr(k){return (I18N[currentLang]&&I18N[currentLang][k])||I18N.en[k]||k}
+function setLanguage(lang){
+ currentLang=lang;localStorage.setItem("challon_ui_lang",lang);document.documentElement.lang=lang==="uz"?"uz":lang;
+ document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.getAttribute("data-i18n");if(I18N[lang]?.[key])el.textContent=I18N[lang][key]});
+ document.querySelectorAll(".lang").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang));
+ localizeSelectOptions();
+ renderDynamicUI();
+}
+function typeLabel(v){const map={Reading:"Reading",Vocabulary:"Vocabulary",Mixed:"Mixed"};return map[v]||v}
+function diffLabel(v){if(currentLang==="uz")return {Low:"Past",Medium:"O‘rta",High:"Yuqori"}[v]||v;if(currentLang==="ru")return {Low:"Низкий",Medium:"Средний",High:"Высокий"}[v]||v;return v}
+function avgLabel(v){return v==null?"—":v+"%"}
+
+let activeTeacherId=null,currentClass=null,testType="Reading",difficulty="Medium",testItems=[],answers=[],currentIndex=0,timerInterval=null,secondsLeft=1200,startingSeconds=1200,latestResult=null;
+function get(k,f){try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(f))}catch(e){return f}}
+function set(k,v){localStorage.setItem(k,JSON.stringify(v))}
+const admin=()=>get("challon_admin",null),teachers=()=>get("challon_teachers",[]),classes=()=>get("challon_classes",[]),roster=()=>get("challon_roster",[]),results=()=>get("challon_results",[]);
+function setNav(id){["homeNav","studentNav","teacherNav","adminNav"].forEach(x=>document.getElementById(x).classList.toggle("active",x===id))}
+function hideViews(){["homeView","adminLoginView","adminView","teacherLoginView","teacherView","studentView"].forEach(id=>document.getElementById(id).classList.add("hidden"))}
+function showHome(){hideViews();document.getElementById("homeView").classList.remove("hidden");setNav("homeNav");window.scrollTo({top:0,behavior:"smooth"})}
+function openModal(id){document.getElementById(id).style.display="flex"}function closeModal(id){document.getElementById(id).style.display="none"}
+
+function openAdminLogin(){hideViews();setNav("adminNav");if(sessionStorage.getItem("challon_admin_login")==="1"){document.getElementById("adminView").classList.remove("hidden");renderAdmin()}else{document.getElementById("adminLoginView").classList.remove("hidden");const a=admin();document.getElementById("adminSetupBox").classList.toggle("hidden",!!a);document.getElementById("adminLoginBox").classList.toggle("hidden",!a)}}
+function createAdmin(){const n=document.getElementById("adminSetupName").value.trim(),p=document.getElementById("adminSetupPin").value.trim();if(!n||!/^\d{4,8}$/.test(p))return alert(tr("msg.enterAdmin"));set("challon_admin",{name:n,pin:p});sessionStorage.setItem("challon_admin_login","1");openAdminLogin()}
+function adminLogin(){const a=admin(),p=document.getElementById("adminLoginPin").value.trim();if(!a||a.pin!==p)return alert(tr("msg.badPin"));sessionStorage.setItem("challon_admin_login","1");openAdminLogin()}
+
+function openTeacherLogin(){hideViews();setNav("teacherNav");document.getElementById("teacherLoginView").classList.remove("hidden")}
+function teacherLogin(){const id=document.getElementById("teacherLoginId").value.trim().toUpperCase(),p=document.getElementById("teacherLoginPin").value.trim(),t=teachers().find(x=>x.id===id&&x.pin===p);if(!t)return alert(tr("msg.badTeacher"));activeTeacherId=id;sessionStorage.setItem("challon_teacher",id);hideViews();document.getElementById("teacherView").classList.remove("hidden");setNav("teacherNav");renderTeacher()}
+function openStudent(){hideViews();document.getElementById("studentView").classList.remove("hidden");setNav("studentNav");prefillJoin();window.scrollTo({top:0,behavior:"smooth"})}
+
+function createTeacher(){let a=teachers();if(a.length>=20)return alert(tr("msg.teacherMax"));const id=document.getElementById("newTeacherId").value.trim().toUpperCase(),n=document.getElementById("newTeacherName").value.trim(),p=document.getElementById("newTeacherPin").value.trim();if(!id||!n||!/^\d{4,8}$/.test(p))return alert(tr("msg.teacherData"));if(a.some(x=>x.id===id))return alert(tr("msg.teacherExists"));a.push({id,name:n,pin:p});set("challon_teachers",a);closeModal("teacherModal");renderAdmin()}
+function renderAdmin(){
+ const a=admin(),ts=teachers(),cs=classes(),rs=results();
+ document.getElementById("adminWelcome").textContent=(a?.name||"Admin")+" — "+(currentLang==="ru"?"Школьная панель":currentLang==="uz"?"Maktab paneli":"School Dashboard");
+ document.getElementById("aTeachers").textContent=ts.length;document.getElementById("aClasses").textContent=cs.length;document.getElementById("aStudents").textContent=roster().length;document.getElementById("aAttempts").textContent=rs.length;
+ document.getElementById("aOverall").textContent=avg(rs.map(x=>x.overallScore))+"%";document.getElementById("aReading").textContent=avg(rs.map(x=>x.readingScore).filter(v=>v!=null))+"%";document.getElementById("aVocab").textContent=avg(rs.map(x=>x.vocabScore).filter(v=>v!=null))+"%";document.getElementById("aBelow").textContent=rs.filter(x=>x.overallScore<60).length;
+ document.getElementById("adminTeacherCards").innerHTML=ts.length?ts.map(t=>{const tc=cs.filter(c=>c.teacherId===t.id),codes=new Set(tc.map(c=>c.code)),trr=rs.filter(r=>codes.has(r.classCode));return `<div class="teachercard"><h3>${t.name}</h3><div class="meta">${t.id}<br>${tc.length}/5 ${currentLang==="ru"?"классов":currentLang==="uz"?"sinf":"classes"} · ${trr.length} ${currentLang==="ru"?"попыток":currentLang==="uz"?"urinish":"attempts"}</div><div class="btnrow" style="justify-content:flex-start"><button class="btn secondary" onclick="adminOpenTeacher('${t.id}')">${currentLang==="ru"?"Открыть":currentLang==="uz"?"Ochish":"Open"}</button></div></div>`}).join(""):`<div class='help'>${tr("msg.noTeachers")}</div>`;
+ renderReadingWeak(rs,"adminReadingWeak");renderVocabWeak(rs,"adminVocabWeak");renderContentLibrary()
+}
+function adminOpenTeacher(id){activeTeacherId=id;hideViews();document.getElementById("teacherView").classList.remove("hidden");setNav("teacherNav");renderTeacher()}
+
+function openCreateClass(){if(classes().filter(c=>c.teacherId===activeTeacherId).length>=5)return alert(tr("msg.classMax"));openModal("classModal")}
+function makeCode(){const chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let s="UZ-";for(let i=0;i<4;i++)s+=chars[Math.floor(Math.random()*chars.length)];return s}
+function createClass(){const n=document.getElementById("newClassName").value.trim(),course=document.getElementById("newClassCourse").value.trim();if(!n)return alert(tr("msg.className"));let a=classes();if(a.filter(c=>c.teacherId===activeTeacherId).length>=5)return alert(tr("msg.classMax"));let c;do{c=makeCode()}while(a.some(x=>x.code===c));a.push({id:"C"+Date.now(),teacherId:activeTeacherId,code:c,name:n,course});set("challon_classes",a);closeModal("classModal");renderTeacher()}
+function renderTeacher(){
+ const t=teachers().find(x=>x.id===activeTeacherId);if(!t)return showHome();const cs=classes().filter(c=>c.teacherId===t.id),codes=new Set(cs.map(c=>c.code)),rr=results().filter(r=>codes.has(r.classCode));
+ document.getElementById("teacherWelcome").textContent=`${t.name} (${t.id})`;document.getElementById("tClasses").textContent=cs.length;document.getElementById("tStudents").textContent=roster().filter(s=>codes.has(s.classCode)).length;document.getElementById("tAttempts").textContent=rr.length;document.getElementById("tAvg").textContent=avg(rr.map(r=>r.overallScore))+"%";
+ document.getElementById("teacherClassCards").innerHTML=cs.length?cs.map(c=>{const cr=rr.filter(r=>r.classCode===c.code),st=roster().filter(s=>s.classCode===c.code);return `<div class="classcard"><h3>${c.name}</h3><div class="meta">${c.course||"—"}<br>${st.length}/15 ${currentLang==="ru"?"учеников":currentLang==="uz"?"o‘quvchi":"students"} · ${cr.length} ${currentLang==="ru"?"попыток":currentLang==="uz"?"urinish":"attempts"}</div><span class="chip">${c.code}</span><div class="btnrow" style="justify-content:flex-start"><button class="btn secondary" onclick="selectClass('${c.code}')">${currentLang==="ru"?"Открыть":currentLang==="uz"?"Ochish":"Open"}</button><button class="btn secondary" onclick="copyClass('${c.code}')">${currentLang==="ru"?"Копировать код":currentLang==="uz"?"Kodni nusxalash":"Copy Code"}</button></div></div>`}).join(""):`<div class='help'>${tr("msg.noClasses")}</div>`;
+ const sel=document.getElementById("teacherClassSelect"),old=sel.value;sel.innerHTML=cs.map(c=>`<option value="${c.code}">${c.name} (${c.code})</option>`).join("");if(cs.some(c=>c.code===old))sel.value=old;renderTeacherClass()
+}
+function copyClass(c){navigator.clipboard?.writeText(c);alert(tr("msg.classCopied"))}
+function selectClass(c){document.getElementById("teacherClassSelect").value=c;renderTeacherClass();document.getElementById("teacherClassSelect").scrollIntoView({behavior:"smooth"})}
+function classCode(){return document.getElementById("teacherClassSelect")?.value||""}
+function filteredClassResults(){const c=classCode(),q=(document.getElementById("tcSearch")?.value||"").toLowerCase(),ty=document.getElementById("tcType")?.value||"All",d=document.getElementById("tcDiff")?.value||"All";return results().filter(r=>r.classCode===c&&(ty==="All"||r.testType===ty)&&(d==="All"||r.difficulty===d)&&(!q||String(r.studentId||"").toLowerCase().includes(q)||String(r.name||"").toLowerCase().includes(q)))}
+function renderTeacherClass(){
+ const c=classCode();if(!c){document.getElementById("teacherGradeBody").innerHTML=`<tr><td colspan="10">${tr("msg.noClass")}</td></tr>`;return}
+ const all=results().filter(r=>r.classCode===c),rows=filteredClassResults();
+ document.getElementById("tcStudents").textContent=roster().filter(s=>s.classCode===c).length;document.getElementById("tcReading").textContent=avg(all.map(x=>x.readingScore).filter(v=>v!=null))+"%";document.getElementById("tcVocab").textContent=avg(all.map(x=>x.vocabScore).filter(v=>v!=null))+"%";document.getElementById("tcOverall").textContent=avg(all.map(x=>x.overallScore))+"%";
+ document.getElementById("teacherGradeBody").innerHTML=rows.length?rows.slice().sort((a,b)=>b.timestamp-a.timestamp).map(r=>`<tr><td>${r.date}</td><td>${r.studentId||"-"}</td><td>${r.name||"-"}</td><td>${typeLabel(r.testType)}</td><td>${diffLabel(r.difficulty)}</td><td><span class="scorechip">${r.overallScore}%</span></td><td>${avgLabel(r.readingScore)}</td><td>${avgLabel(r.vocabScore)}</td><td>${growthDelta(r)}</td><td><button class="btn secondary" style="padding:7px 9px" onclick="detail('${r.uid}')">${currentLang==="ru"?"Открыть":currentLang==="uz"?"Ko‘rish":"View"}</button></td></tr>`).join(""):`<tr><td colspan="10">${tr("msg.noResults")}</td></tr>`;
+ renderReadingWeak(all,"teacherReadingWeak");renderVocabWeak(all,"teacherVocabWeak");populateGrowth(all)
+}
+function openRoster(){if(!classCode())return alert(tr("msg.noClass"));renderRoster();openModal("rosterModal")}
+function renderRoster(){const a=roster().filter(s=>s.classCode===classCode());document.getElementById("rosterBody").innerHTML=a.length?a.map(s=>`<tr><td>${s.studentId}</td><td>${s.name}</td><td><button class="btn danger" style="padding:7px 9px" onclick="removeRoster('${s.uid}')">${currentLang==="ru"?"Удалить":currentLang==="uz"?"O‘chirish":"Remove"}</button></td></tr>`).join(""):`<tr><td colspan='3'>${tr("msg.noResults")}</td></tr>`}
+function addRoster(){let a=roster(),c=classCode(),id=document.getElementById("rosterId").value.trim(),n=document.getElementById("rosterName").value.trim();if(!id&&!n)return alert(tr("msg.enterStudent"));if(a.filter(s=>s.classCode===c).length>=15)return alert(tr("msg.rosterMax"));if(id&&a.some(s=>s.classCode===c&&s.studentId===id))return alert(tr("msg.studentExists"));a.push({uid:"S"+Date.now(),classCode:c,studentId:id,name:n});set("challon_roster",a);document.getElementById("rosterId").value="";document.getElementById("rosterName").value="";renderRoster();renderTeacher()}
+function removeRoster(uid){set("challon_roster",roster().filter(s=>s.uid!==uid));renderRoster();renderTeacher()}
+
+function joinClass(){const c=document.getElementById("studentClassCode").value.trim().toUpperCase(),cl=classes().find(x=>x.code===c);if(!cl)return alert(tr("msg.classNotFound"));currentClass=cl;document.getElementById("joinedInfo").innerHTML=`<b>${cl.name}</b><br>${cl.course||""}<br><span class="chip">${cl.code}</span>`;document.getElementById("joinedInfo").classList.remove("hidden");document.getElementById("studentSetup").classList.remove("hidden")}
+function chooseType(t,el){testType=t;document.querySelectorAll(".typebtn").forEach(x=>x.classList.remove("active"));el.classList.add("active")}
+function chooseDiff(d,el){difficulty=d;document.querySelectorAll(".diff").forEach(x=>x.classList.remove("active"));el.classList.add("active")}
+function studentHistory(c,k){return results().filter(r=>r.classCode===c&&(r.studentId||r.name)===k)}
+function readingWeakWeights(c,k){const a=studentHistory(c,k),agg={};a.forEach(r=>Object.entries(r.readingTopics||{}).forEach(([t,v])=>{if(!agg[t])agg[t]={c:0,n:0};agg[t].c+=v.correct;agg[t].n+=v.total}));const w={};Object.entries(agg).forEach(([t,v])=>w[t]=1+(1-v.c/v.n)*2);return w}
+function wrongWordCounts(c,k){const a=studentHistory(c,k),w={};a.forEach(r=>(r.vocabDetail||[]).forEach(x=>{if(!x.correct)w[x.word]=(w[x.word]||0)+1}));return w}
+function weightedUnique(topics,weights,count){let pool=[...topics],out=[];while(pool.length&&out.length<count){let total=pool.reduce((s,t)=>s+(weights[t]||1),0),x=Math.random()*total,chosen=pool[0];for(const t of pool){x-=weights[t]||1;if(x<=0){chosen=t;break}}out.push(chosen);pool=pool.filter(t=>t!==chosen)}return out}
+function buildReading(count,c,key){const topics=[...new Set(READING_BANK.map(q=>q.topic))],order=weightedUnique(topics,readingWeakWeights(c,key),Math.min(count,topics.length)),out=[];order.forEach(t=>{const p=READING_BANK.filter(q=>q.topic===t&&q.difficulty===difficulty);if(p.length)out.push({...p[Math.floor(Math.random()*p.length)],itemType:"Reading"})});while(out.length<count){const p=READING_BANK.filter(q=>q.difficulty===difficulty);out.push({...p[Math.floor(Math.random()*p.length)],itemType:"Reading"})}return out.slice(0,count).sort(()=>Math.random()-.5)}
+function buildVocab(count,c,key){const wrong=wrongWordCounts(c,key),pool=VOCAB_BANK.filter(q=>q.difficulty===difficulty),out=[];const wrongPool=pool.filter(q=>wrong[q.word]).sort((a,b)=>(wrong[b.word]||0)-(wrong[a.word]||0));const reviewN=Math.min(Math.round(count*.3),wrongPool.length);for(let i=0;i<reviewN;i++){const q=wrongPool[i];if(!out.some(x=>x.id===q.id))out.push({...q,itemType:"Vocabulary"})}const rest=pool.filter(q=>!out.some(x=>x.id===q.id)).sort(()=>Math.random()-.5);out.push(...rest.slice(0,count-out.length).map(q=>({...q,itemType:"Vocabulary"})));return out.sort(()=>Math.random()-.5)}
+function startTest(){
+ if(!currentClass)return alert(tr("msg.joinFirst"));const sid=document.getElementById("studentId").value.trim(),name=document.getElementById("studentName").value.trim();if(!sid&&!name)return alert(tr("msg.enterStudent"));
+ const rr=roster().filter(s=>s.classCode===currentClass.code);if(rr.length&&sid&&!rr.some(s=>s.studentId===sid))return alert(tr("msg.notRoster"));
+ const count=Number(document.getElementById("studentCount").value),mins=Number(document.getElementById("studentTime").value),key=sid||name;
+ if(testType==="Reading")testItems=buildReading(count,currentClass.code,key);else if(testType==="Vocabulary")testItems=buildVocab(count,currentClass.code,key);else{const rc=Math.floor(count/2),vc=count-rc;testItems=[...buildReading(rc,currentClass.code,key),...buildVocab(vc,currentClass.code,key)].sort(()=>Math.random()-.5)}
+ answers=new Array(testItems.length).fill(null);currentIndex=0;startingSeconds=mins*60;secondsLeft=startingSeconds;localStorage.setItem("challon_sid",sid);localStorage.setItem("challon_sname",name);
+ document.getElementById("joinPanel").style.display="none";document.getElementById("studentSetup").style.display="none";document.getElementById("result").style.display="none";document.getElementById("exam").style.display="grid";document.getElementById("studentTag").textContent=(sid||name)+(sid&&name?" · "+name:"");renderQ();updateProgress();startTimer()
+}
+function renderQ(){
+ const q=testItems[currentIndex];
+ // IMPORTANT: The following test content is intentionally NOT translated.
+ document.getElementById("contentTag").textContent=q.itemType;document.getElementById("diffTag").textContent=q.difficulty;document.getElementById("qnum").textContent=currentIndex+1;document.getElementById("qtitle").textContent=q.itemType==="Reading"?q.q:q.question;
+ document.getElementById("options").innerHTML=q.options.map((o,i)=>`<label class="option"><input type="radio" name="answer" ${answers[currentIndex]===i?'checked':''} onchange="saveAnswer(${i})"><span>${String.fromCharCode(65+i)}. ${o}</span></label>`).join("");
+ if(q.itemType==="Reading"){document.getElementById("contentHead").textContent="Reading Passage";document.getElementById("contentPane").innerHTML=`<div class="tag">${q.topic}</div><h3>${q.topic} Reading</h3><p>${q.passage}</p>`}
+ else{document.getElementById("contentHead").textContent="Vocabulary";document.getElementById("contentPane").innerHTML=`<div class="tag">${q.category} · ${q.type}</div><div class="wordhero">${q.word}</div><div class="wordsub">Vocabulary practice · English ↔ Uzbek ↔ Context</div>`}
+ renderNav()
+}
+function renderNav(){document.getElementById("qnav").innerHTML=testItems.map((_,i)=>`<button class="qdot ${answers[i]!==null?'done':''} ${i===currentIndex?'current':''}" onclick="goQ(${i})">${i+1}</button>`).join("")}
+function saveAnswer(i){answers[currentIndex]=i;updateProgress();renderNav()}function goQ(i){currentIndex=i;renderQ()}function nextQ(){if(currentIndex<testItems.length-1){currentIndex++;renderQ()}}function prevQ(){if(currentIndex>0){currentIndex--;renderQ()}}
+function updateProgress(){const n=answers.filter(x=>x!==null).length;document.getElementById("progressText").textContent=`${n}/${testItems.length}`;document.getElementById("pbar").style.width=`${n/testItems.length*100}%`}
+function startTimer(){clearInterval(timerInterval);tick();timerInterval=setInterval(()=>{secondsLeft--;tick();if(secondsLeft<=0){clearInterval(timerInterval);submitTest(true)}},1000)}
+function tick(){document.getElementById("timer").textContent=`${String(Math.floor(secondsLeft/60)).padStart(2,"0")}:${String(secondsLeft%60).padStart(2,"0")}`}
+function submitTest(auto){
+ const u=answers.filter(x=>x===null).length;if(!auto&&u&&!confirm(`${u} ${tr("msg.unanswered")}`))return;clearInterval(timerInterval);
+ let rc=0,rn=0,vc=0,vn=0,overall=0,readingTopics={},vocabDetail=[];
+ testItems.forEach((q,i)=>{const ok=answers[i]===q.correct;if(ok)overall++;if(q.itemType==="Reading"){rn++;if(ok)rc++;if(!readingTopics[q.topic])readingTopics[q.topic]={correct:0,total:0};readingTopics[q.topic].total++;if(ok)readingTopics[q.topic].correct++}else{vn++;if(ok)vc++;vocabDetail.push({word:q.word,uz:q.uz,correct:ok,type:q.type})}});
+ const readingScore=rn?Math.round(rc/rn*100):null,vocabScore=vn?Math.round(vc/vn*100):null,overallScore=Math.round(overall/testItems.length*100),sid=document.getElementById("studentId").value.trim(),name=document.getElementById("studentName").value.trim();
+ latestResult={uid:"R"+Date.now()+"_"+Math.random().toString(36).slice(2,6),classCode:currentClass.code,className:currentClass.name,teacherId:currentClass.teacherId,studentId:sid,name,testType,difficulty,overallScore,readingScore,vocabScore,correct:overall,total:testItems.length,usedSeconds:startingSeconds-secondsLeft,date:new Date().toLocaleString(),timestamp:Date.now(),readingTopics,vocabDetail,review:testItems.map((q,i)=>({itemType:q.itemType,label:q.itemType==="Reading"?q.topic:q.word,question:q.itemType==="Reading"?q.q:q.question,selected:answers[i],correct:q.correct,options:q.options,explanation:q.explanation}))};
+ let a=results();a.unshift(latestResult);set("challon_results",a.slice(0,5000));showResult()
+}
+function showResult(){
+ const r=latestResult;document.getElementById("scoreText").textContent=r.overallScore+"%";document.getElementById("ring").style.background=`conic-gradient(var(--sky-strong) 0deg, var(--green-strong) ${r.overallScore*3.6}deg, #E4EFE9 ${r.overallScore*3.6}deg)`;
+ document.getElementById("resultTitle").textContent=`${r.name||r.studentId} — ${typeLabel(r.testType)}`;document.getElementById("resultSummary").textContent=r.overallScore>=80?tr("msg.good"):tr("msg.review");
+ document.getElementById("rOverall").textContent=r.overallScore+"%";document.getElementById("rReading").textContent=avgLabel(r.readingScore);document.getElementById("rVocab").textContent=avgLabel(r.vocabScore);document.getElementById("rCorrect").textContent=r.correct+"/"+r.total;document.getElementById("rTime").textContent=fmt(r.usedSeconds);
+ const wrongWords=(r.vocabDetail||[]).filter(x=>!x.correct).map(x=>x.word),weakTopics=Object.entries(r.readingTopics||{}).filter(([t,v])=>v.correct<v.total).map(x=>x[0]);
+ document.getElementById("nextFocus").innerHTML=`<b>Reading:</b> ${weakTopics.join(", ")||tr("msg.balanced")}<br><b>Vocabulary:</b> ${wrongWords.join(", ")||tr("msg.none")}`;
+ // Review contains English questions/answers/explanations intentionally.
+ document.getElementById("review").innerHTML=r.review.map((q,i)=>{const ok=q.selected===q.correct,chosen=q.selected===null?"No answer":q.options[q.selected];return `<div class="review"><div class="${ok?'good':'bad'}">${i+1}. ${q.itemType} · ${q.label} — ${ok?'Correct':'Wrong'}</div><div><b>Q:</b> ${q.question}</div><div><b>Your answer:</b> ${chosen}</div><div><b>Correct answer:</b> ${q.options[q.correct]}</div><div class="explain">💡 ${q.explanation}</div></div>`}).join("");
+ document.getElementById("resultToken").textContent=encodeResult(r);document.getElementById("result").style.display="block";document.getElementById("result").scrollIntoView({behavior:"smooth"})
+}
+function encodeResult(r){return "CHALLON_RESULT_"+btoa(unescape(encodeURIComponent(JSON.stringify(r))))}
+function decodeResult(t){try{if(!t.startsWith("CHALLON_RESULT_"))return null;return JSON.parse(decodeURIComponent(escape(atob(t.slice(15)))))}catch(e){return null}}
+function copyResult(){navigator.clipboard?.writeText(encodeResult(latestResult));alert(tr("msg.resultCopied"))}
+function importResult(){const r=decodeResult(document.getElementById("importText").value.trim());if(!r||!r.uid)return alert(tr("msg.invalidResult"));const c=classes().find(x=>x.code===r.classCode);if(!c||c.teacherId!==activeTeacherId)return alert(tr("msg.wrongClass"));let a=results();if(!a.some(x=>x.uid===r.uid))a.unshift(r);set("challon_results",a);closeModal("importModal");renderTeacher();alert(tr("msg.imported"))}
+
+function renderReadingWeak(rs,target){const agg={};rs.forEach(r=>Object.entries(r.readingTopics||{}).forEach(([t,v])=>{if(!agg[t])agg[t]={c:0,n:0};agg[t].c+=v.correct;agg[t].n+=v.total}));const arr=Object.entries(agg).map(([t,v])=>({t,rate:Math.round(v.c/v.n*100)})).sort((a,b)=>a.rate-b.rate).slice(0,10);document.getElementById(target).innerHTML=arr.length?arr.map(x=>`<div class="weak"><div style="display:flex;justify-content:space-between"><b>${x.t}</b><b>${x.rate}%</b></div><div class="weakbar"><div class="weakfill" style="width:${x.rate}%"></div></div></div>`).join(""):`<div class='help'>${currentLang==="ru"?"Нет данных Reading.":currentLang==="uz"?"Reading ma’lumoti yo‘q.":"No Reading data."}</div>`}
+function renderVocabWeak(rs,target){const agg={};rs.forEach(r=>(r.vocabDetail||[]).forEach(x=>{if(!agg[x.word])agg[x.word]={wrong:0,total:0,uz:x.uz};agg[x.word].total++;if(!x.correct)agg[x.word].wrong++}));const arr=Object.entries(agg).map(([w,v])=>({w,uz:v.uz,rate:Math.round((v.total-v.wrong)/v.total*100),wrong:v.wrong,total:v.total})).sort((a,b)=>a.rate-b.rate||b.wrong-a.wrong).slice(0,10);document.getElementById(target).innerHTML=arr.length?arr.map(x=>`<div class="weak"><div style="display:flex;justify-content:space-between"><b>${x.w}</b><b>${x.rate}%</b></div><div class="help">${x.uz} · wrong ${x.wrong}/${x.total}</div><div class="weakbar"><div class="weakfill" style="width:${x.rate}%"></div></div></div>`).join(""):`<div class='help'>${currentLang==="ru"?"Нет данных Vocabulary.":currentLang==="uz"?"Vocabulary ma’lumoti yo‘q.":"No Vocabulary data."}</div>`}
+function avg(a){const b=a.filter(v=>typeof v==="number"&&!Number.isNaN(v));return b.length?Math.round(b.reduce((s,v)=>s+v,0)/b.length):0}
+function growthDelta(r){const key=r.studentId||r.name,arr=results().filter(x=>x.classCode===r.classCode&&(x.studentId||x.name)===key&&x.testType===r.testType).sort((a,b)=>a.timestamp-b.timestamp),i=arr.findIndex(x=>x.uid===r.uid);if(i<=0)return"—";const d=r.overallScore-arr[i-1].overallScore;return `<span class="${d>=0?'good':'bad'}">${d>=0?"+":""}${d}</span>`}
+function populateGrowth(all){const map=new Map();all.forEach(r=>{const k=r.studentId||r.name;if(k&&!map.has(k))map.set(k,`${r.studentId||"-"} · ${r.name||"-"}`)});document.getElementById("growthStudentSelect").innerHTML=[...map].map(([k,v])=>`<option value="${k}">${v}</option>`).join("");drawGrowth()}
+function drawGrowth(){const key=document.getElementById("growthStudentSelect")?.value||"",metric=document.getElementById("growthMetric")?.value||"overallScore",a=results().filter(r=>r.classCode===classCode()&&(r.studentId||r.name)===key&&r[metric]!=null).sort((x,y)=>x.timestamp-y.timestamp),vals=a.map(r=>r[metric]);drawChart(document.getElementById("growthCanvas"),vals);document.getElementById("growthText").textContent=a.length?`${currentLang==="ru"?"Попытки":currentLang==="uz"?"Urinishlar":"Attempts"} ${a.length} · ${currentLang==="ru"?"Первый":currentLang==="uz"?"Birinchi":"First"} ${vals[0]}% · ${currentLang==="ru"?"Последний":currentLang==="uz"?"So‘nggi":"Latest"} ${vals[vals.length-1]}%`:""}
+function drawChart(c,vals){const x=c.getContext("2d"),w=c.width,h=c.height,p=40;x.clearRect(0,0,w,h);x.strokeStyle="#DCEAE1";for(let y=0;y<=100;y+=20){const py=h-p-y/100*(h-2*p);x.beginPath();x.moveTo(p,py);x.lineTo(w-p,py);x.stroke();x.fillStyle="#6E816D";x.font="12px sans-serif";x.fillText(y+"%",7,py+4)}if(!vals.length)return;const st=vals.length===1?0:(w-2*p)/(vals.length-1);x.strokeStyle="#269ED7";x.lineWidth=3;x.beginPath();vals.forEach((v,i)=>{const px=vals.length===1?w/2:p+i*st,py=h-p-v/100*(h-2*p);i?x.lineTo(px,py):x.moveTo(px,py)});x.stroke();vals.forEach((v,i)=>{const px=vals.length===1?w/2:p+i*st,py=h-p-v/100*(h-2*p);x.fillStyle="#6FB642";x.beginPath();x.arc(px,py,5,0,Math.PI*2);x.fill();x.fillStyle="#17331F";x.fillText(v+"%",px-10,py-10)})}
+function detail(uid){const r=results().find(x=>x.uid===uid);if(!r)return;document.getElementById("detailTitle").textContent=`${r.studentId||"-"} · ${r.name||"-"} — ${typeLabel(r.testType)}`;const a=results().filter(x=>x.classCode===r.classCode&&(x.studentId||x.name)===(r.studentId||r.name)).sort((x,y)=>x.timestamp-y.timestamp);document.getElementById("detailInfo").innerHTML=`<b>Overall:</b> ${r.overallScore}% · <b>Reading:</b> ${avgLabel(r.readingScore)} · <b>Vocabulary:</b> ${avgLabel(r.vocabScore)}<br><br><b>Wrong vocabulary:</b> ${(r.vocabDetail||[]).filter(x=>!x.correct).map(x=>x.word+" ("+x.uz+")").join(", ")||tr("msg.none")}`;openModal("detailModal");setTimeout(()=>drawChart(document.getElementById("detailCanvas"),a.map(x=>x.overallScore)),30)}
+
+function exportClassCSV(){const a=filteredClassResults(),rows=[["Date","Class","Student ID","Name","Type","Difficulty","Overall","Reading","Vocabulary","Correct","Total"],...a.map(r=>[r.date,r.classCode,r.studentId,r.name,r.testType,r.difficulty,r.overallScore,r.readingScore??"",r.vocabScore??"",r.correct,r.total])];download(new Blob(["\uFEFF"+rows.map(r=>r.map(csv).join(",")).join("\n")],{type:"text/csv;charset=utf-8"}),"CHALLON_NDKTUAL_ENGLISH_TEST_Class.csv")}
+function csv(v){const s=String(v??"");return /[",\n]/.test(s)?`"${s.replace(/"/g,'""')}"`:s}
+function fmt(s){return `${Math.floor(s/60)}m ${s%60}s`}
+function makePDF(lines){const esc=s=>String(s).replace(/[^\x20-\x7E]/g," ").replace(/\\/g,"\\\\").replace(/\(/g,"\\(").replace(/\)/g,"\\)"),title=lines.shift(),c=["BT","/F1 17 Tf","50 795 Td",`(${esc(title)}) Tj`,"0 -28 Td","/F1 10 Tf"];lines.forEach((l,i)=>{if(i)c.push("0 -17 Td");c.push(`(${esc(l)}) Tj`)});c.push("ET");const st=c.join("\n"),o=["1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj\n","2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj\n","3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>\nendobj\n","4 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj\n",`5 0 obj\n<< /Length ${st.length} >>\nstream\n${st}\nendstream\nendobj\n`];let p="%PDF-1.4\n",offs=[0];o.forEach(v=>{offs.push(p.length);p+=v});const xo=p.length;p+=`xref\n0 ${o.length+1}\n0000000000 65535 f \n`;for(let i=1;i<offs.length;i++)p+=String(offs[i]).padStart(10,"0")+" 00000 n \n";p+=`trailer\n<< /Size ${o.length+1} /Root 1 0 R >>\nstartxref\n${xo}\n%%EOF`;return new Blob([p],{type:"application/pdf"})}
+function download(blob,n){const u=URL.createObjectURL(blob),a=document.createElement("a");a.href=u;a.download=n;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1000)}
+function downloadStudentPDF(){const r=latestResult,lines=["CHALLON_NDKTUAL_ENGLISH TEST - Student Result",`Class: ${r.className}`,`Student: ${r.studentId||"-"} ${r.name||""}`,`Type: ${r.testType}`,`Difficulty: ${r.difficulty}`,`Overall: ${r.overallScore}%`,`Reading: ${r.readingScore==null?"-":r.readingScore+"%"}`,`Vocabulary: ${r.vocabScore==null?"-":r.vocabScore+"%"}`,`Correct: ${r.correct}/${r.total}`,`Time: ${fmt(r.usedSeconds)}`];download(makePDF(lines),"CHALLON_NDKTUAL_ENGLISH_TEST_Result.pdf")}
+function prefillJoin(){const q=new URLSearchParams(location.search),c=q.get("join");if(c){document.getElementById("studentClassCode").value=c;joinClass()}}
+
+let contentPage=1;
+const CONTENT_PAGE_SIZE=20;
+
+function localizeSelectOptions(){
+  const all = currentLang==="ru"?"Все":currentLang==="uz"?"Barchasi":"All";
+  const low = currentLang==="ru"?"Низкий":currentLang==="uz"?"Past":"Low";
+  const med = currentLang==="ru"?"Средний":currentLang==="uz"?"O‘rta":"Medium";
+  const high = currentLang==="ru"?"Высокий":currentLang==="uz"?"Yuqori":"High";
+  const reading = currentLang==="ru"?"Чтение":currentLang==="uz"?"O‘qish":"Reading";
+  const vocab = currentLang==="ru"?"Лексика":currentLang==="uz"?"Lug‘at":"Vocabulary";
+  const mixed = currentLang==="ru"?"Смешанный":currentLang==="uz"?"Aralash":"Mixed";
+  ["tcDiff","contentDiff"].forEach(id=>{
+    const s=document.getElementById(id); if(!s)return;
+    [...s.options].forEach(o=>{if(o.value==="All")o.textContent=all;if(o.value==="Low")o.textContent=low;if(o.value==="Medium")o.textContent=med;if(o.value==="High")o.textContent=high;});
+  });
+  ["tcType","contentType"].forEach(id=>{
+    const s=document.getElementById(id); if(!s)return;
+    [...s.options].forEach(o=>{if(o.value==="All")o.textContent=all;if(o.value==="Reading")o.textContent=reading;if(o.value==="Vocabulary")o.textContent=vocab;if(o.value==="Mixed")o.textContent=mixed;});
+  });
+  const gm=document.getElementById("growthMetric");
+  if(gm){[...gm.options].forEach(o=>{if(o.value==="overallScore")o.textContent=currentLang==="ru"?"Общий":currentLang==="uz"?"Umumiy":"Overall";if(o.value==="readingScore")o.textContent=reading;if(o.value==="vocabScore")o.textContent=vocab;});}
+}
+
+function getFilteredContent(){
+  const type=document.getElementById("contentType")?.value||"Reading";
+  const diff=document.getElementById("contentDiff")?.value||"All";
+  const q=(document.getElementById("contentSearch")?.value||"").trim().toLowerCase();
+  if(type==="Reading"){
+    return READING_BANK.filter(x=>(diff==="All"||x.difficulty===diff)&&(!q||[x.topic,x.kind,x.q,x.passage].join(" ").toLowerCase().includes(q)));
+  }
+  return VOCAB_ITEMS.filter(x=>(diff==="All"||x.difficulty===diff)&&(!q||[x.term,x.uz,x.category,x.context].join(" ").toLowerCase().includes(q)));
+}
+
+function renderContentLibrary(){
+  const body=document.getElementById("contentBody"); if(!body)return;
+  const type=document.getElementById("contentType")?.value||"Reading";
+  const data=getFilteredContent();
+  const pages=Math.max(1,Math.ceil(data.length/CONTENT_PAGE_SIZE));
+  if(contentPage>pages)contentPage=pages;
+  const start=(contentPage-1)*CONTENT_PAGE_SIZE;
+  const rows=data.slice(start,start+CONTENT_PAGE_SIZE);
+  body.innerHTML=rows.map((x,i)=>{
+    if(type==="Reading"){
+      return `<tr><td>${x.id}</td><td>${x.topic}</td><td>${diffLabel(x.difficulty)}</td><td>${escapeHTML(x.q)}</td><td><button class="btn secondary" style="padding:7px 9px" onclick="showContentDetail('Reading',${x.id})">${currentLang==="ru"?"Открыть":currentLang==="uz"?"Ko‘rish":"View"}</button></td></tr>`;
+    }
+    const realIndex=VOCAB_ITEMS.indexOf(x);
+    return `<tr><td>${realIndex+1}</td><td>${x.category}</td><td>${diffLabel(x.difficulty)}</td><td><b>${escapeHTML(x.term)}</b> — ${escapeHTML(x.uz)}</td><td><button class="btn secondary" style="padding:7px 9px" onclick="showContentDetail('Vocabulary',${realIndex})">${currentLang==="ru"?"Открыть":currentLang==="uz"?"Ko‘rish":"View"}</button></td></tr>`;
+  }).join("") || `<tr><td colspan="5">${currentLang==="ru"?"Контент не найден.":currentLang==="uz"?"Kontent topilmadi.":"No content found."}</td></tr>`;
+  document.getElementById("contentPageLabel").textContent=`${data.length} ${currentLang==="ru"?"элементов":currentLang==="uz"?"element":"items"} · ${contentPage}/${pages}`;
+}
+function escapeHTML(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]))}
+function changeContentPage(delta){const data=getFilteredContent(),pages=Math.max(1,Math.ceil(data.length/CONTENT_PAGE_SIZE));contentPage=Math.min(pages,Math.max(1,contentPage+delta));renderContentLibrary()}
+function showContentDetail(type,id){
+  let html="",title="";
+  if(type==="Reading"){
+    const x=READING_BANK.find(q=>q.id===id); if(!x)return;
+    title=`Reading #${x.id} · ${x.topic} · ${x.difficulty}`;
+    html=`<div class="chip">${x.kind}</div><h3>Passage</h3><p style="line-height:1.8">${escapeHTML(x.passage)}</p><h3>Question</h3><p><b>${escapeHTML(x.q)}</b></p><ol type="A">${x.options.map((o,i)=>`<li class="${i===x.correct?'good':''}">${escapeHTML(o)}${i===x.correct?" ✓":""}</li>`).join("")}</ol><div class="explain"><b>Explanation:</b> ${escapeHTML(x.explanation)}</div>`;
+  } else {
+    const x=VOCAB_ITEMS[id]; if(!x)return;
+    title=`Vocabulary #${id+1} · ${x.term} · ${x.difficulty}`;
+    const qs=VOCAB_BANK.filter(q=>q.word===x.term).slice(0,3);
+    html=`<div class="chip">${escapeHTML(x.category)}</div><h3>${escapeHTML(x.term)} — ${escapeHTML(x.uz)}</h3><p><b>Context:</b> ${escapeHTML(x.context)}</p><h3>Generated English Question Forms</h3>${qs.map(q=>`<div class="review"><b>${q.type}</b><br>${escapeHTML(q.question)}<ol type="A">${q.options.map((o,i)=>`<li class="${i===q.correct?'good':''}">${escapeHTML(o)}${i===q.correct?" ✓":""}</li>`).join("")}</ol></div>`).join("")}`;
+  }
+  document.getElementById("contentDetailTitle").textContent=title;
+  document.getElementById("contentDetailBody").innerHTML=html;
+  openModal("contentDetailModal");
+}
+function downloadContentCSV(){
+  const type=document.getElementById("contentType")?.value||"Reading";
+  if(type==="Reading"){
+    const rows=[["ID","Topic","Difficulty","Kind","Passage","Question","Option A","Option B","Option C","Option D","Correct","Explanation"],...READING_BANK.map(x=>[x.id,x.topic,x.difficulty,x.kind,x.passage,x.q,...x.options,String.fromCharCode(65+x.correct),x.explanation])];
+    download(new Blob(["\uFEFF"+rows.map(r=>r.map(csv).join(",")).join("\n")],{type:"text/csv;charset=utf-8"}),"CHALLON_NDKTUAL_Reading_500.csv");
+  } else {
+    const rows=[["ID","Term","Uzbek Meaning","Difficulty","Category","Context"],...VOCAB_ITEMS.map((x,i)=>[i+1,x.term,x.uz,x.difficulty,x.category,x.context])];
+    download(new Blob(["\uFEFF"+rows.map(r=>r.map(csv).join(",")).join("\n")],{type:"text/csv;charset=utf-8"}),"CHALLON_NDKTUAL_Vocabulary_1000.csv");
+  }
+}
+
+function renderDynamicUI(){if(!document.getElementById("adminView").classList.contains("hidden")){renderAdmin();renderContentLibrary();}if(!document.getElementById("teacherView").classList.contains("hidden")&&activeTeacherId)renderTeacher();if(document.getElementById("result").style.display==="block"&&latestResult)showResult()}
+document.addEventListener("DOMContentLoaded",()=>{document.getElementById("studentId").value=localStorage.getItem("challon_sid")||"";document.getElementById("studentName").value=localStorage.getItem("challon_sname")||"";const t=sessionStorage.getItem("challon_teacher");if(t)activeTeacherId=t;setLanguage(currentLang);new URLSearchParams(location.search).get("join")?openStudent():showHome()});
+</script>
+</body>
+</html>

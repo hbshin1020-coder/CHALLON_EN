@@ -1,0 +1,1001 @@
+﻿ID,Term,Uzbek Meaning,Difficulty,Category,Context
+1,book,kitob,Low,School,I borrowed a ___ from the library.
+2,teacher,o‘qituvchi,Low,School,Our ___ explains the lesson clearly.
+3,student,o‘quvchi,Low,School,Every ___ must bring a notebook.
+4,school,maktab,Low,School,My ___ starts at eight in the morning.
+5,class,sinf,Low,School,There are fifteen students in our ___.
+6,homework,uy vazifasi,Low,School,I finished my ___ before dinner.
+7,question,savol,Low,School,Please read the ___ carefully.
+8,answer,javob,Low,School,Write your ___ on the paper.
+9,read,o‘qimoq,Low,Learning,I ___ English stories every evening.
+10,write,yozmoq,Low,Learning,Please ___ your name here.
+11,listen,tinglamoq,Low,Learning,We ___ to English audio in class.
+12,speak,gapirmoq,Low,Learning,Try to ___ English every day.
+13,learn,o‘rganmoq,Low,Learning,Students ___ new words each week.
+14,remember,eslamoq,Low,Learning,I use flashcards to ___ vocabulary.
+15,easy,oson,Low,General,This exercise is very ___.
+16,difficult,qiyin,Low,General,The last question was ___.
+17,important,muhim,Low,General,Sleep is ___ for good health.
+18,happy,xursand,Low,Feelings,She felt ___ after passing the test.
+19,tired,charchagan,Low,Feelings,He was ___ after a long day.
+20,friend,do‘st,Low,People,My best ___ studies with me.
+21,family,oila,Low,People,My ___ eats dinner together.
+22,city,shahar,Low,Places,Tashkent is a large ___.
+23,country,mamlakat,Low,Places,Uzbekistan is a beautiful ___.
+24,market,bozor,Low,Places,We bought fruit at the ___.
+25,shop,do‘kon,Low,Places,This ___ sells school supplies.
+26,bus,avtobus,Low,Travel,I go to school by ___.
+27,train,poyezd,Low,Travel,The ___ leaves at nine o’clock.
+28,ticket,chipta,Low,Travel,I bought a ___ for Samarkand.
+29,travel,sayohat qilmoq,Low,Travel,Many people like to ___ in summer.
+30,water,suv,Low,Health,Drink enough ___ every day.
+31,food,ovqat,Low,Health,Healthy ___ gives us energy.
+32,walk,piyoda yurmoq,Low,Health,I ___ for twenty minutes after dinner.
+33,sleep,uxlamoq,Low,Health,Teenagers need enough ___ each night.
+34,morning,ertalab,Low,Time,I study vocabulary in the ___.
+35,evening,kechqurun,Low,Time,We review homework in the ___.
+36,today,bugun,Low,Time,We have an English test ___.
+37,tomorrow,ertaga,Low,Time,The class will continue ___.
+38,before,oldin,Low,Time,Wash your hands ___ eating.
+39,after,keyin,Low,Time,We went home ___ class.
+40,because,chunki,Low,Grammar,I study English ___ I want to travel.
+41,improve,yaxshilamoq,Medium,Learning,Regular practice can ___ your reading speed.
+42,practice,mashq qilmoq,Medium,Learning,You need to ___ vocabulary regularly.
+43,review,takrorlamoq,Medium,Learning,Students should ___ mistakes after a test.
+44,focus,diqqatni jamlamoq,Medium,Learning,Turn off notifications so you can ___.
+45,progress,rivojlanish,Medium,Learning,The chart shows the student’s reading ___.
+46,result,natija,Medium,Assessment,Your test ___ will appear after submission.
+47,score,ball,Medium,Assessment,Her reading ___ increased from 60 to 75.
+48,correct,to‘g‘ri,Medium,Assessment,Choose the ___ answer.
+49,incorrect,noto‘g‘ri,Medium,Assessment,The system explains why an answer is ___.
+50,explain,tushuntirmoq,Medium,Assessment,The teacher asked him to ___ his answer.
+51,meaning,ma’no,Medium,Vocabulary,Guess the ___ of the word from context.
+52,context,kontekst,Medium,Vocabulary,You can understand the word from its ___.
+53,similar,o‘xshash,Medium,Vocabulary,These two words have a ___ meaning.
+54,different,farqli,Medium,Vocabulary,The two passages discuss ___ ideas.
+55,increase,oshmoq,Medium,Academic,Student participation may ___ with better feedback.
+56,decrease,kamaymoq,Medium,Academic,The number of errors began to ___.
+57,change,o‘zgarish,Medium,Academic,The new policy created a major ___.
+58,reason,sabab,Medium,Academic,What is the main ___ for the decision?
+59,effect,ta’sir,Medium,Academic,The new system had a positive ___.
+60,evidence,dalil,Medium,Academic,Find ___ in the passage for your answer.
+61,compare,taqqoslamoq,Medium,Academic,The task asks students to ___ two ideas.
+62,describe,tasvirlamoq,Medium,Academic,Please ___ the process in your own words.
+63,purpose,maqsad,Medium,Academic,What is the main ___ of this paragraph?
+64,benefit,foyda,Medium,Academic,One ___ of daily reading is better vocabulary.
+65,problem,muammo,Medium,Academic,The article explains a common learning ___.
+66,solution,yechim,Medium,Academic,The team proposed a simple ___ to the problem.
+67,environment,atrof-muhit,Medium,Environment,Recycling can help protect the ___.
+68,energy,energiya,Medium,Science,Solar panels produce electrical ___.
+69,technology,texnologiya,Medium,Science,New ___ is changing education.
+70,device,qurilma,Medium,Science,A smartphone is a digital ___.
+71,system,tizim,Medium,Technology,The school uses an online learning ___.
+72,information,ma’lumot,Medium,Media,Check the source before sharing ___.
+73,source,manba,Medium,Media,A reliable ___ should provide evidence.
+74,message,xabar,Medium,Media,She received an important email ___.
+75,community,hamjamiyat,Medium,Society,The local ___ organized a cultural event.
+76,culture,madaniyat,Medium,Society,Food is an important part of ___.
+77,business,biznes,Medium,Work,The company wants to expand its ___.
+78,customer,mijoz,Medium,Work,The company studies ___ behavior.
+79,service,xizmat,Medium,Work,The hotel improved its customer ___.
+80,decision,qaror,Medium,Work,Managers made a difficult ___.
+81,significant,sezilarli,High,Academic,The new method produced a ___ improvement in scores.
+82,accurate,aniq,High,Academic,Important claims should be based on ___ information.
+83,reliable,ishonchli,High,Academic,Students should use ___ sources for research.
+84,analyze,tahlil qilmoq,High,Academic,Researchers ___ the results before drawing conclusions.
+85,interpret,talqin qilmoq,High,Academic,Readers must ___ the chart carefully.
+86,infer,xulosa chiqarmoq,High,Academic,Students often need to ___ meaning from context.
+87,evaluate,baholamoq,High,Academic,The task asks learners to ___ two solutions.
+88,identify,aniqlamoq,High,Academic,"First, ___ the writer’s main argument."
+89,maintain,saqlab turmoq,High,Academic,It is difficult to ___ motivation for a long period.
+90,achieve,erishmoq,High,Academic,Consistent practice can help students ___ their goals.
+91,require,talab qilmoq,High,Academic,Advanced reading tasks ___ careful attention.
+92,provide,taqdim etmoq,High,Academic,The passage should ___ enough evidence.
+93,approach,yondashuv,High,Academic,The teacher introduced a new learning ___.
+94,method,usul,High,Academic,Spaced repetition is an effective study ___.
+95,factor,omil,High,Academic,Cost is an important ___ in the decision.
+96,impact,ta’sir,High,Academic,The project may have a long-term ___ on education.
+97,challenge,qiyinchilik,High,Academic,Limited internet access can be a major ___.
+98,strategy,strategiya,High,Academic,The team developed a new marketing ___.
+99,efficient,samarali,High,Business,LED lighting is more energy-___ than older lighting.
+100,effective,"samarali, ta’sirchan",High,Academic,The new teaching method was highly ___.
+101,expand,kengaytirmoq,High,Business,The company plans to ___ into Central Asia.
+102,revenue,daromad,High,Business,Higher sales increased company ___.
+103,profit,foyda,High,Business,High costs can reduce ___.
+104,demand,talab,High,Business,Prices can rise when ___ becomes stronger.
+105,resource,resurs,High,Environment,Water is an essential natural ___.
+106,consumption,iste’mol,High,Environment,The city wants to reduce electricity ___.
+107,sustainable,barqaror,High,Environment,The project needs a ___ long-term model.
+108,pollution,ifloslanish,High,Environment,Public transport may help reduce air ___.
+109,infrastructure,infratuzilma,High,Technology,Digital services depend on reliable ___.
+110,algorithm,algoritm,High,Technology,The recommendation ___ learns from user behavior.
+111,data,ma’lumotlar,High,Technology,The system collects learning ___ after every test.
+112,privacy,maxfiylik,High,Technology,Schools must protect student ___.
+113,bias,tarafkashlik,High,Technology,Poor training data can create model ___.
+114,verify,tekshirmoq,High,Media,Always ___ important information before sharing it.
+115,misleading,chalg‘ituvchi,High,Media,A chart can be technically correct but still ___.
+116,perspective,nuqtai nazar,High,Media,Good readers consider more than one ___.
+117,assumption,taxmin,High,Reasoning,The conclusion depends on an unsupported ___.
+118,consequence,oqibat,High,Reasoning,Every major policy can have an unexpected ___.
+119,alternative,muqobil,High,Reasoning,The team considered another ___ before deciding.
+120,school book,maktab kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+121,school room,maktab xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+122,school work,maktab ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+123,school time,maktab vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+124,school plan,maktab reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+125,school test,maktab test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+126,school practice,maktab mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+127,school group,maktab guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+128,school task,maktab topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+129,school note,maktab qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+130,class book,sinf kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+131,class room,sinf xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+132,class work,sinf ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+133,class time,sinf vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+134,class plan,sinf reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+135,class test,sinf test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+136,class practice,sinf mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+137,class group,sinf guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+138,class task,sinf topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+139,class note,sinf qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+140,English book,ingliz tili kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+141,English room,ingliz tili xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+142,English work,ingliz tili ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+143,English time,ingliz tili vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+144,English plan,ingliz tili reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+145,English test,ingliz tili test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+146,English practice,ingliz tili mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+147,English group,ingliz tili guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+148,English task,ingliz tili topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+149,English note,ingliz tili qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+150,reading book,o‘qish kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+151,reading room,o‘qish xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+152,reading work,o‘qish ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+153,reading time,o‘qish vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+154,reading plan,o‘qish reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+155,reading test,o‘qish test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+156,reading practice,o‘qish mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+157,reading group,o‘qish guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+158,reading task,o‘qish topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+159,reading note,o‘qish qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+160,word book,so‘z kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+161,word room,so‘z xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+162,word work,so‘z ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+163,word time,so‘z vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+164,word plan,so‘z reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+165,word test,so‘z test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+166,word practice,so‘z mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+167,word group,so‘z guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+168,word task,so‘z topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+169,word note,so‘z qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+170,study book,o‘qish kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+171,study room,o‘qish xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+172,study work,o‘qish ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+173,study time,o‘qish vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+174,study plan,o‘qish reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+175,study test,o‘qish test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+176,study practice,o‘qish mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+177,study group,o‘qish guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+178,study task,o‘qish topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+179,study note,o‘qish qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+180,homework book,uy vazifasi kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+181,homework room,uy vazifasi xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+182,homework work,uy vazifasi ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+183,homework time,uy vazifasi vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+184,homework plan,uy vazifasi reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+185,homework test,uy vazifasi test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+186,homework practice,uy vazifasi mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+187,homework group,uy vazifasi guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+188,homework task,uy vazifasi topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+189,homework note,uy vazifasi qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+190,lesson book,dars kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+191,lesson room,dars xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+192,lesson work,dars ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+193,lesson time,dars vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+194,lesson plan,dars reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+195,lesson test,dars test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+196,lesson practice,dars mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+197,lesson group,dars guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+198,lesson task,dars topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+199,lesson note,dars qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+200,student book,o‘quvchi kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+201,student room,o‘quvchi xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+202,student work,o‘quvchi ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+203,student time,o‘quvchi vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+204,student plan,o‘quvchi reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+205,student test,o‘quvchi test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+206,student practice,o‘quvchi mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+207,student group,o‘quvchi guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+208,student task,o‘quvchi topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+209,student note,o‘quvchi qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+210,teacher book,o‘qituvchi kitob,Low,School,The lesson uses the vocabulary item ___ in a school context.
+211,teacher room,o‘qituvchi xona,Low,School,The lesson uses the vocabulary item ___ in a school context.
+212,teacher work,o‘qituvchi ish,Low,School,The lesson uses the vocabulary item ___ in a school context.
+213,teacher time,o‘qituvchi vaqt,Low,School,The lesson uses the vocabulary item ___ in a school context.
+214,teacher plan,o‘qituvchi reja,Low,School,The lesson uses the vocabulary item ___ in a school context.
+215,teacher test,o‘qituvchi test,Low,School,The lesson uses the vocabulary item ___ in a school context.
+216,teacher practice,o‘qituvchi mashq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+217,teacher group,o‘qituvchi guruh,Low,School,The lesson uses the vocabulary item ___ in a school context.
+218,teacher task,o‘qituvchi topshiriq,Low,School,The lesson uses the vocabulary item ___ in a school context.
+219,teacher note,o‘qituvchi qayd,Low,School,The lesson uses the vocabulary item ___ in a school context.
+220,daily routine,kundalik tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+221,daily meal,kundalik ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+222,daily walk,kundalik sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+223,daily activity,kundalik faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+224,daily habit,kundalik odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+225,daily schedule,kundalik jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+226,daily time,kundalik vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+227,daily break,kundalik tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+228,daily plan,kundalik reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+229,daily exercise,kundalik mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+230,morning routine,ertalabki tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+231,morning meal,ertalabki ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+232,morning walk,ertalabki sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+233,morning activity,ertalabki faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+234,morning habit,ertalabki odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+235,morning schedule,ertalabki jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+236,morning time,ertalabki vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+237,morning break,ertalabki tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+238,morning plan,ertalabki reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+239,morning exercise,ertalabki mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+240,evening routine,kechki tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+241,evening meal,kechki ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+242,evening walk,kechki sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+243,evening activity,kechki faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+244,evening habit,kechki odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+245,evening schedule,kechki jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+246,evening time,kechki vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+247,evening break,kechki tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+248,evening plan,kechki reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+249,evening exercise,kechki mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+250,home routine,uy tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+251,home meal,uy ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+252,home walk,uy sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+253,home activity,uy faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+254,home habit,uy odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+255,home schedule,uy jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+256,home time,uy vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+257,home break,uy tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+258,home plan,uy reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+259,home exercise,uy mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+260,family routine,oilaviy tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+261,family meal,oilaviy ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+262,family walk,oilaviy sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+263,family activity,oilaviy faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+264,family habit,oilaviy odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+265,family schedule,oilaviy jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+266,family time,oilaviy vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+267,family break,oilaviy tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+268,family plan,oilaviy reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+269,family exercise,oilaviy mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+270,free routine,bo‘sh tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+271,free meal,bo‘sh ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+272,free walk,bo‘sh sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+273,free activity,bo‘sh faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+274,free habit,bo‘sh odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+275,free schedule,bo‘sh jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+276,free time,bo‘sh vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+277,free break,bo‘sh tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+278,free plan,bo‘sh reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+279,free exercise,bo‘sh mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+280,weekend routine,dam olish kuni tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+281,weekend meal,dam olish kuni ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+282,weekend walk,dam olish kuni sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+283,weekend activity,dam olish kuni faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+284,weekend habit,dam olish kuni odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+285,weekend schedule,dam olish kuni jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+286,weekend time,dam olish kuni vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+287,weekend break,dam olish kuni tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+288,weekend plan,dam olish kuni reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+289,weekend exercise,dam olish kuni mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+290,simple routine,oddiy tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+291,simple meal,oddiy ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+292,simple walk,oddiy sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+293,simple activity,oddiy faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+294,simple habit,oddiy odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+295,simple schedule,oddiy jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+296,simple time,oddiy vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+297,simple break,oddiy tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+298,simple plan,oddiy reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+299,simple exercise,oddiy mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+300,healthy routine,sog‘lom tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+301,healthy meal,sog‘lom ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+302,healthy walk,sog‘lom sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+303,healthy activity,sog‘lom faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+304,healthy habit,sog‘lom odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+305,healthy schedule,sog‘lom jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+306,healthy time,sog‘lom vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+307,healthy break,sog‘lom tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+308,healthy plan,sog‘lom reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+309,healthy exercise,sog‘lom mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+310,regular routine,muntazam tartib,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+311,regular meal,muntazam ovqat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+312,regular walk,muntazam sayr,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+313,regular activity,muntazam faoliyat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+314,regular habit,muntazam odat,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+315,regular schedule,muntazam jadval,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+316,regular time,muntazam vaqt,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+317,regular break,muntazam tanaffus,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+318,regular plan,muntazam reja,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+319,regular exercise,muntazam mashq,Low,Daily Life,The lesson uses the vocabulary item ___ in a daily life context.
+320,bus ticket,avtobus chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+321,bus map,avtobus xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+322,bus route,avtobus yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+323,bus time,avtobus vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+324,bus trip,avtobus safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+325,bus service,avtobus xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+326,bus stop,avtobus bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+327,bus guide,avtobus qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+328,bus plan,avtobus reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+329,bus information,avtobus ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+330,train ticket,poyezd chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+331,train map,poyezd xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+332,train route,poyezd yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+333,train time,poyezd vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+334,train trip,poyezd safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+335,train service,poyezd xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+336,train stop,poyezd bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+337,train guide,poyezd qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+338,train plan,poyezd reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+339,train information,poyezd ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+340,travel ticket,sayohat chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+341,travel map,sayohat xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+342,travel route,sayohat yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+343,travel time,sayohat vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+344,travel trip,sayohat safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+345,travel service,sayohat xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+346,travel stop,sayohat bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+347,travel guide,sayohat qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+348,travel plan,sayohat reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+349,travel information,sayohat ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+350,city ticket,shahar chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+351,city map,shahar xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+352,city route,shahar yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+353,city time,shahar vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+354,city trip,shahar safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+355,city service,shahar xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+356,city stop,shahar bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+357,city guide,shahar qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+358,city plan,shahar reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+359,city information,shahar ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+360,local ticket,mahalliy chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+361,local map,mahalliy xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+362,local route,mahalliy yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+363,local time,mahalliy vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+364,local trip,mahalliy safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+365,local service,mahalliy xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+366,local stop,mahalliy bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+367,local guide,mahalliy qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+368,local plan,mahalliy reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+369,local information,mahalliy ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+370,tourist ticket,sayyohlik chipta,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+371,tourist map,sayyohlik xarita,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+372,tourist route,sayyohlik yo‘nalish,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+373,tourist time,sayyohlik vaqt,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+374,tourist trip,sayyohlik safar,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+375,tourist service,sayyohlik xizmat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+376,tourist stop,sayyohlik bekat,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+377,tourist guide,sayyohlik qo‘llanma,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+378,tourist plan,sayyohlik reja,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+379,tourist information,sayyohlik ma’lumot,Low,Travel,The lesson uses the vocabulary item ___ in a travel context.
+380,academic skill,akademik ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+381,academic practice,akademik mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+382,academic task,akademik topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+383,academic strategy,akademik strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+384,academic progress,akademik rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+385,academic assessment,akademik baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+386,academic method,akademik usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+387,academic result,akademik natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+388,academic goal,akademik maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+389,academic feedback,akademik fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+390,online skill,onlayn ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+391,online practice,onlayn mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+392,online task,onlayn topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+393,online strategy,onlayn strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+394,online progress,onlayn rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+395,online assessment,onlayn baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+396,online method,onlayn usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+397,online result,onlayn natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+398,online goal,onlayn maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+399,online feedback,onlayn fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+400,practical skill,amaliy ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+401,practical practice,amaliy mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+402,practical task,amaliy topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+403,practical strategy,amaliy strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+404,practical progress,amaliy rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+405,practical assessment,amaliy baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+406,practical method,amaliy usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+407,practical result,amaliy natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+408,practical goal,amaliy maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+409,practical feedback,amaliy fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+410,regular skill,muntazam ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+411,regular practice,muntazam mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+412,regular task,muntazam topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+413,regular strategy,muntazam strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+414,regular progress,muntazam rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+415,regular assessment,muntazam baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+416,regular method,muntazam usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+417,regular result,muntazam natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+418,regular goal,muntazam maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+419,regular feedback,muntazam fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+420,independent skill,mustaqil ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+421,independent practice,mustaqil mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+422,independent task,mustaqil topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+423,independent strategy,mustaqil strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+424,independent progress,mustaqil rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+425,independent assessment,mustaqil baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+426,independent method,mustaqil usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+427,independent result,mustaqil natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+428,independent goal,mustaqil maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+429,independent feedback,mustaqil fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+430,group skill,guruh ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+431,group practice,guruh mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+432,group task,guruh topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+433,group strategy,guruh strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+434,group progress,guruh rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+435,group assessment,guruh baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+436,group method,guruh usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+437,group result,guruh natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+438,group goal,guruh maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+439,group feedback,guruh fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+440,language skill,til ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+441,language practice,til mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+442,language task,til topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+443,language strategy,til strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+444,language progress,til rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+445,language assessment,til baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+446,language method,til usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+447,language result,til natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+448,language goal,til maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+449,language feedback,til fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+450,reading skill,o‘qish ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+451,reading strategy,o‘qish strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+452,reading progress,o‘qish rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+453,reading assessment,o‘qish baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+454,reading method,o‘qish usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+455,reading result,o‘qish natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+456,reading goal,o‘qish maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+457,reading feedback,o‘qish fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+458,vocabulary skill,lug‘at ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+459,vocabulary practice,lug‘at mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+460,vocabulary task,lug‘at topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+461,vocabulary strategy,lug‘at strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+462,vocabulary progress,lug‘at rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+463,vocabulary assessment,lug‘at baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+464,vocabulary method,lug‘at usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+465,vocabulary result,lug‘at natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+466,vocabulary goal,lug‘at maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+467,vocabulary feedback,lug‘at fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+468,learning skill,o‘rganish ko‘nikma,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+469,learning practice,o‘rganish mashq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+470,learning task,o‘rganish topshiriq,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+471,learning strategy,o‘rganish strategiya,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+472,learning progress,o‘rganish rivojlanish,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+473,learning assessment,o‘rganish baholash,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+474,learning method,o‘rganish usul,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+475,learning result,o‘rganish natija,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+476,learning goal,o‘rganish maqsad,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+477,learning feedback,o‘rganish fikr-mulohaza,Medium,Education,The lesson uses the vocabulary item ___ in a education context.
+478,digital system,raqamli tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+479,digital tool,raqamli vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+480,digital device,raqamli qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+481,digital platform,raqamli platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+482,digital service,raqamli xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+483,digital network,raqamli tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+484,digital application,raqamli ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+485,digital process,raqamli jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+486,digital solution,raqamli yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+487,digital access,raqamli kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+488,smart system,aqlli tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+489,smart tool,aqlli vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+490,smart device,aqlli qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+491,smart platform,aqlli platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+492,smart service,aqlli xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+493,smart network,aqlli tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+494,smart application,aqlli ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+495,smart process,aqlli jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+496,smart solution,aqlli yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+497,smart access,aqlli kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+498,online system,onlayn tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+499,online tool,onlayn vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+500,online device,onlayn qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+501,online platform,onlayn platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+502,online service,onlayn xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+503,online network,onlayn tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+504,online application,onlayn ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+505,online process,onlayn jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+506,online solution,onlayn yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+507,online access,onlayn kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+508,mobile system,mobil tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+509,mobile tool,mobil vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+510,mobile device,mobil qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+511,mobile platform,mobil platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+512,mobile service,mobil xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+513,mobile network,mobil tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+514,mobile application,mobil ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+515,mobile process,mobil jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+516,mobile solution,mobil yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+517,mobile access,mobil kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+518,secure system,xavfsiz tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+519,secure tool,xavfsiz vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+520,secure device,xavfsiz qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+521,secure platform,xavfsiz platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+522,secure service,xavfsiz xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+523,secure network,xavfsiz tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+524,secure application,xavfsiz ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+525,secure process,xavfsiz jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+526,secure solution,xavfsiz yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+527,secure access,xavfsiz kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+528,automated system,avtomatlashtirilgan tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+529,automated tool,avtomatlashtirilgan vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+530,automated device,avtomatlashtirilgan qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+531,automated platform,avtomatlashtirilgan platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+532,automated service,avtomatlashtirilgan xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+533,automated network,avtomatlashtirilgan tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+534,automated application,avtomatlashtirilgan ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+535,automated process,avtomatlashtirilgan jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+536,automated solution,avtomatlashtirilgan yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+537,automated access,avtomatlashtirilgan kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+538,technical system,texnik tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+539,technical tool,texnik vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+540,technical device,texnik qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+541,technical platform,texnik platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+542,technical service,texnik xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+543,technical network,texnik tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+544,technical application,texnik ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+545,technical process,texnik jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+546,technical solution,texnik yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+547,technical access,texnik kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+548,cloud system,bulutli tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+549,cloud tool,bulutli vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+550,cloud device,bulutli qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+551,cloud platform,bulutli platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+552,cloud service,bulutli xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+553,cloud network,bulutli tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+554,cloud application,bulutli ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+555,cloud process,bulutli jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+556,cloud solution,bulutli yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+557,cloud access,bulutli kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+558,virtual system,virtual tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+559,virtual tool,virtual vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+560,virtual device,virtual qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+561,virtual platform,virtual platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+562,virtual service,virtual xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+563,virtual network,virtual tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+564,virtual application,virtual ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+565,virtual process,virtual jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+566,virtual solution,virtual yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+567,virtual access,virtual kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+568,data system,ma’lumot tizim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+569,data tool,ma’lumot vosita,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+570,data device,ma’lumot qurilma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+571,data platform,ma’lumot platforma,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+572,data service,ma’lumot xizmat,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+573,data network,ma’lumot tarmoq,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+574,data application,ma’lumot ilova,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+575,data process,ma’lumot jarayon,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+576,data solution,ma’lumot yechim,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+577,data access,ma’lumot kirish,Medium,Technology,The lesson uses the vocabulary item ___ in a technology context.
+578,customer growth,mijoz o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+579,customer strategy,mijoz strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+580,customer demand,mijoz talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+581,customer revenue,mijoz daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+582,customer cost,mijoz xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+583,customer plan,mijoz reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+584,customer model,mijoz model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+585,customer decision,mijoz qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+586,customer opportunity,mijoz imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+587,customer feedback,mijoz fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+588,market growth,bozor o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+589,market strategy,bozor strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+590,market demand,bozor talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+591,market revenue,bozor daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+592,market cost,bozor xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+593,market plan,bozor reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+594,market model,bozor model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+595,market decision,bozor qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+596,market opportunity,bozor imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+597,market feedback,bozor fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+598,sales growth,savdo o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+599,sales strategy,savdo strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+600,sales demand,savdo talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+601,sales revenue,savdo daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+602,sales cost,savdo xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+603,sales plan,savdo reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+604,sales model,savdo model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+605,sales decision,savdo qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+606,sales opportunity,savdo imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+607,sales feedback,savdo fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+608,business growth,biznes o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+609,business strategy,biznes strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+610,business demand,biznes talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+611,business revenue,biznes daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+612,business cost,biznes xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+613,business plan,biznes reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+614,business model,biznes model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+615,business decision,biznes qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+616,business opportunity,biznes imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+617,business feedback,biznes fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+618,financial growth,moliyaviy o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+619,financial strategy,moliyaviy strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+620,financial demand,moliyaviy talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+621,financial revenue,moliyaviy daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+622,financial cost,moliyaviy xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+623,financial plan,moliyaviy reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+624,financial model,moliyaviy model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+625,financial decision,moliyaviy qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+626,financial opportunity,moliyaviy imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+627,financial feedback,moliyaviy fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+628,local growth,mahalliy o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+629,local strategy,mahalliy strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+630,local demand,mahalliy talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+631,local revenue,mahalliy daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+632,local cost,mahalliy xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+633,local model,mahalliy model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+634,local decision,mahalliy qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+635,local opportunity,mahalliy imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+636,local feedback,mahalliy fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+637,global growth,global o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+638,global strategy,global strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+639,global demand,global talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+640,global revenue,global daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+641,global cost,global xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+642,global plan,global reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+643,global model,global model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+644,global decision,global qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+645,global opportunity,global imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+646,global feedback,global fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+647,service growth,xizmat o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+648,service strategy,xizmat strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+649,service demand,xizmat talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+650,service revenue,xizmat daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+651,service cost,xizmat xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+652,service plan,xizmat reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+653,service model,xizmat model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+654,service decision,xizmat qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+655,service opportunity,xizmat imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+656,service feedback,xizmat fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+657,product growth,mahsulot o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+658,product strategy,mahsulot strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+659,product demand,mahsulot talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+660,product revenue,mahsulot daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+661,product cost,mahsulot xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+662,product plan,mahsulot reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+663,product model,mahsulot model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+664,product decision,mahsulot qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+665,product opportunity,mahsulot imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+666,product feedback,mahsulot fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+667,company growth,kompaniya o‘sish,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+668,company strategy,kompaniya strategiya,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+669,company demand,kompaniya talab,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+670,company revenue,kompaniya daromad,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+671,company cost,kompaniya xarajat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+672,company plan,kompaniya reja,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+673,company model,kompaniya model,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+674,company decision,kompaniya qaror,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+675,company opportunity,kompaniya imkoniyat,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+676,company feedback,kompaniya fikr,Medium,Business,The lesson uses the vocabulary item ___ in a business context.
+677,local event,mahalliy tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+678,local group,mahalliy guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+679,local identity,mahalliy o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+680,local issue,mahalliy masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+681,local change,mahalliy o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+682,local support,mahalliy qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+683,local responsibility,mahalliy mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+684,local value,mahalliy qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+685,local project,mahalliy loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+686,public service,jamoat xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+687,public event,jamoat tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+688,public group,jamoat guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+689,public identity,jamoat o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+690,public issue,jamoat masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+691,public change,jamoat o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+692,public support,jamoat qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+693,public responsibility,jamoat mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+694,public value,jamoat qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+695,public project,jamoat loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+696,social service,ijtimoiy xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+697,social event,ijtimoiy tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+698,social group,ijtimoiy guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+699,social identity,ijtimoiy o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+700,social issue,ijtimoiy masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+701,social change,ijtimoiy o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+702,social support,ijtimoiy qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+703,social responsibility,ijtimoiy mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+704,social value,ijtimoiy qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+705,social project,ijtimoiy loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+706,cultural service,madaniy xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+707,cultural event,madaniy tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+708,cultural group,madaniy guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+709,cultural identity,madaniy o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+710,cultural issue,madaniy masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+711,cultural change,madaniy o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+712,cultural support,madaniy qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+713,cultural responsibility,madaniy mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+714,cultural value,madaniy qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+715,cultural project,madaniy loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+716,community service,hamjamiyat xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+717,community event,hamjamiyat tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+718,community group,hamjamiyat guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+719,community identity,hamjamiyat o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+720,community issue,hamjamiyat masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+721,community change,hamjamiyat o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+722,community support,hamjamiyat qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+723,community responsibility,hamjamiyat mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+724,community value,hamjamiyat qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+725,community project,hamjamiyat loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+726,national service,milliy xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+727,national event,milliy tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+728,national group,milliy guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+729,national identity,milliy o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+730,national issue,milliy masala,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+731,national change,milliy o‘zgarish,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+732,national support,milliy qo‘llab-quvvatlash,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+733,national responsibility,milliy mas’uliyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+734,national value,milliy qadriyat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+735,national project,milliy loyiha,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+736,international service,xalqaro xizmat,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+737,international event,xalqaro tadbir,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+738,international group,xalqaro guruh,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+739,international identity,xalqaro o‘zlik,Medium,Society,The lesson uses the vocabulary item ___ in a society context.
+740,significant evidence,sezilarli dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+741,significant analysis,sezilarli tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+742,significant approach,sezilarli yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+743,significant outcome,sezilarli natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+744,significant factor,sezilarli omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+745,significant impact,sezilarli ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+746,significant method,sezilarli usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+747,significant assumption,sezilarli taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+748,significant interpretation,sezilarli talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+749,significant evaluation,sezilarli baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+750,reliable evidence,ishonchli dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+751,reliable analysis,ishonchli tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+752,reliable approach,ishonchli yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+753,reliable outcome,ishonchli natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+754,reliable factor,ishonchli omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+755,reliable impact,ishonchli ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+756,reliable method,ishonchli usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+757,reliable assumption,ishonchli taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+758,reliable interpretation,ishonchli talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+759,reliable evaluation,ishonchli baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+760,academic evidence,akademik dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+761,academic analysis,akademik tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+762,academic approach,akademik yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+763,academic outcome,akademik natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+764,academic factor,akademik omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+765,academic impact,akademik ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+766,academic assumption,akademik taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+767,academic interpretation,akademik talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+768,academic evaluation,akademik baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+769,critical evidence,tanqidiy dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+770,critical analysis,tanqidiy tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+771,critical approach,tanqidiy yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+772,critical outcome,tanqidiy natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+773,critical factor,tanqidiy omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+774,critical impact,tanqidiy ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+775,critical method,tanqidiy usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+776,critical assumption,tanqidiy taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+777,critical interpretation,tanqidiy talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+778,critical evaluation,tanqidiy baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+779,analytical evidence,tahliliy dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+780,analytical analysis,tahliliy tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+781,analytical approach,tahliliy yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+782,analytical outcome,tahliliy natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+783,analytical factor,tahliliy omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+784,analytical impact,tahliliy ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+785,analytical method,tahliliy usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+786,analytical assumption,tahliliy taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+787,analytical interpretation,tahliliy talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+788,analytical evaluation,tahliliy baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+789,systematic evidence,tizimli dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+790,systematic analysis,tizimli tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+791,systematic approach,tizimli yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+792,systematic outcome,tizimli natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+793,systematic factor,tizimli omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+794,systematic impact,tizimli ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+795,systematic method,tizimli usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+796,systematic assumption,tizimli taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+797,systematic interpretation,tizimli talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+798,systematic evaluation,tizimli baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+799,effective evidence,samarali dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+800,effective analysis,samarali tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+801,effective approach,samarali yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+802,effective outcome,samarali natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+803,effective factor,samarali omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+804,effective impact,samarali ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+805,effective method,samarali usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+806,effective assumption,samarali taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+807,effective interpretation,samarali talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+808,effective evaluation,samarali baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+809,strategic evidence,strategik dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+810,strategic analysis,strategik tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+811,strategic approach,strategik yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+812,strategic outcome,strategik natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+813,strategic factor,strategik omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+814,strategic impact,strategik ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+815,strategic method,strategik usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+816,strategic assumption,strategik taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+817,strategic interpretation,strategik talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+818,strategic evaluation,strategik baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+819,measurable evidence,o‘lchanadigan dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+820,measurable analysis,o‘lchanadigan tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+821,measurable approach,o‘lchanadigan yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+822,measurable outcome,o‘lchanadigan natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+823,measurable factor,o‘lchanadigan omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+824,measurable impact,o‘lchanadigan ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+825,measurable method,o‘lchanadigan usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+826,measurable assumption,o‘lchanadigan taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+827,measurable interpretation,o‘lchanadigan talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+828,measurable evaluation,o‘lchanadigan baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+829,long-term evidence,uzoq muddatli dalil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+830,long-term analysis,uzoq muddatli tahlil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+831,long-term approach,uzoq muddatli yondashuv,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+832,long-term outcome,uzoq muddatli natija,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+833,long-term factor,uzoq muddatli omil,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+834,long-term impact,uzoq muddatli ta’sir,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+835,long-term method,uzoq muddatli usul,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+836,long-term assumption,uzoq muddatli taxmin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+837,long-term interpretation,uzoq muddatli talqin,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+838,long-term evaluation,uzoq muddatli baholash,High,Academic,The lesson uses the vocabulary item ___ in a academic context.
+839,renewable policy,qayta tiklanuvchi siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+840,renewable management,qayta tiklanuvchi boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+841,renewable consumption,qayta tiklanuvchi iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+842,renewable efficiency,qayta tiklanuvchi samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+843,renewable infrastructure,qayta tiklanuvchi infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+844,renewable impact,qayta tiklanuvchi ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+845,renewable strategy,qayta tiklanuvchi strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+846,renewable technology,qayta tiklanuvchi texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+847,renewable planning,qayta tiklanuvchi rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+848,renewable risk,qayta tiklanuvchi xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+849,environmental policy,ekologik siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+850,environmental management,ekologik boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+851,environmental consumption,ekologik iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+852,environmental efficiency,ekologik samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+853,environmental infrastructure,ekologik infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+854,environmental impact,ekologik ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+855,environmental strategy,ekologik strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+856,environmental technology,ekologik texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+857,environmental planning,ekologik rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+858,environmental risk,ekologik xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+859,sustainable policy,barqaror siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+860,sustainable management,barqaror boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+861,sustainable consumption,barqaror iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+862,sustainable efficiency,barqaror samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+863,sustainable infrastructure,barqaror infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+864,sustainable impact,barqaror ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+865,sustainable strategy,barqaror strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+866,sustainable technology,barqaror texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+867,sustainable planning,barqaror rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+868,sustainable risk,barqaror xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+869,urban policy,shahar siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+870,urban management,shahar boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+871,urban consumption,shahar iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+872,urban efficiency,shahar samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+873,urban infrastructure,shahar infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+874,urban impact,shahar ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+875,urban strategy,shahar strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+876,urban technology,shahar texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+877,urban planning,shahar rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+878,urban risk,shahar xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+879,public policy,jamoat siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+880,public management,jamoat boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+881,public consumption,jamoat iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+882,public efficiency,jamoat samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+883,public infrastructure,jamoat infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+884,public impact,jamoat ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+885,public strategy,jamoat strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+886,public technology,jamoat texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+887,public planning,jamoat rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+888,public risk,jamoat xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+889,energy policy,energiya siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+890,energy management,energiya boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+891,energy consumption,energiya iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+892,energy efficiency,energiya samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+893,energy infrastructure,energiya infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+894,energy impact,energiya ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+895,energy strategy,energiya strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+896,energy technology,energiya texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+897,energy planning,energiya rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+898,energy risk,energiya xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+899,water policy,suv siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+900,water management,suv boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+901,water consumption,suv iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+902,water efficiency,suv samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+903,water infrastructure,suv infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+904,water impact,suv ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+905,water strategy,suv strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+906,water technology,suv texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+907,water planning,suv rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+908,water risk,suv xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+909,waste policy,chiqindi siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+910,waste management,chiqindi boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+911,waste consumption,chiqindi iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+912,waste efficiency,chiqindi samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+913,waste infrastructure,chiqindi infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+914,waste impact,chiqindi ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+915,waste strategy,chiqindi strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+916,waste technology,chiqindi texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+917,waste planning,chiqindi rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+918,waste risk,chiqindi xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+919,resource policy,resurs siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+920,resource management,resurs boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+921,resource consumption,resurs iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+922,resource efficiency,resurs samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+923,resource infrastructure,resurs infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+924,resource impact,resurs ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+925,resource strategy,resurs strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+926,resource technology,resurs texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+927,resource planning,resurs rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+928,resource risk,resurs xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+929,climate policy,iqlim siyosat,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+930,climate management,iqlim boshqaruv,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+931,climate consumption,iqlim iste’mol,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+932,climate efficiency,iqlim samaradorlik,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+933,climate infrastructure,iqlim infratuzilma,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+934,climate impact,iqlim ta’sir,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+935,climate strategy,iqlim strategiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+936,climate technology,iqlim texnologiya,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+937,climate planning,iqlim rejalashtirish,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+938,climate risk,iqlim xavf,High,Environment,The lesson uses the vocabulary item ___ in a environment context.
+939,artificial intelligence,sun’iy intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+940,artificial recommendation,sun’iy tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+941,artificial bias,sun’iy tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+942,artificial privacy,sun’iy maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+943,artificial verification,sun’iy tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+944,artificial content,sun’iy kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+945,artificial source,sun’iy manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+946,artificial platform,sun’iy platforma,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+947,artificial decision,sun’iy qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+948,artificial model,sun’iy model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+949,digital intelligence,raqamli intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+950,digital recommendation,raqamli tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+951,digital bias,raqamli tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+952,digital privacy,raqamli maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+953,digital verification,raqamli tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+954,digital content,raqamli kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+955,digital source,raqamli manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+956,digital decision,raqamli qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+957,digital model,raqamli model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+958,algorithmic intelligence,algoritmik intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+959,algorithmic recommendation,algoritmik tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+960,algorithmic bias,algoritmik tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+961,algorithmic privacy,algoritmik maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+962,algorithmic verification,algoritmik tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+963,algorithmic content,algoritmik kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+964,algorithmic source,algoritmik manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+965,algorithmic platform,algoritmik platforma,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+966,algorithmic decision,algoritmik qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+967,algorithmic model,algoritmik model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+968,automated intelligence,avtomatlashtirilgan intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+969,automated recommendation,avtomatlashtirilgan tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+970,automated bias,avtomatlashtirilgan tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+971,automated privacy,avtomatlashtirilgan maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+972,automated verification,avtomatlashtirilgan tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+973,automated content,avtomatlashtirilgan kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+974,automated source,avtomatlashtirilgan manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+975,automated decision,avtomatlashtirilgan qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+976,automated model,avtomatlashtirilgan model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+977,reliable intelligence,ishonchli intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+978,reliable recommendation,ishonchli tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+979,reliable bias,ishonchli tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+980,reliable privacy,ishonchli maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+981,reliable verification,ishonchli tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+982,reliable content,ishonchli kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+983,reliable source,ishonchli manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+984,reliable platform,ishonchli platforma,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+985,reliable decision,ishonchli qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+986,reliable model,ishonchli model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+987,misleading intelligence,chalg‘ituvchi intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+988,misleading recommendation,chalg‘ituvchi tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+989,misleading bias,chalg‘ituvchi tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+990,misleading privacy,chalg‘ituvchi maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+991,misleading verification,chalg‘ituvchi tekshiruv,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+992,misleading content,chalg‘ituvchi kontent,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+993,misleading source,chalg‘ituvchi manba,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+994,misleading platform,chalg‘ituvchi platforma,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+995,misleading decision,chalg‘ituvchi qaror,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+996,misleading model,chalg‘ituvchi model,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+997,public intelligence,jamoat intellekt,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+998,public recommendation,jamoat tavsiya,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+999,public bias,jamoat tarafkashlik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.
+1000,public privacy,jamoat maxfiylik,High,AI & Media,The lesson uses the vocabulary item ___ in a ai & media context.

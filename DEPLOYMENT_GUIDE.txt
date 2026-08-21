@@ -1,0 +1,44 @@
+CHALLON_NDKTUAL_ENGLISH TEST — DEPLOYMENT PACKAGE
+
+1. UPLOAD
+Upload the entire contents of this folder to the same web root:
+  index.html
+  questions.js
+  vocabulary.js
+  content/  (optional for running, useful for audit/download)
+  README.txt
+  DEPLOYMENT_GUIDE.txt
+  QA_REPORT.txt
+
+2. STATIC HOSTING
+This build has no framework, build step, CDN, package manager, or API dependency.
+It can be uploaded to ordinary static hosting, Netlify, Vercel static hosting,
+GitHub Pages, Cloudflare Pages, an Nginx/Apache folder, or standard web hosting.
+
+3. ENTRY POINT
+The public entry point is:
+  index.html
+
+4. LANGUAGES
+EN / O'Z / RU switches translate the application interface instantly.
+Assessment passages and test questions remain English by design.
+
+5. DATA / ACCOUNTS
+This package is a static front-end prototype. Admin, teacher, class, roster,
+and result data are stored in browser localStorage. Therefore:
+- One browser/device can use all local functions immediately.
+- Different teacher devices do NOT automatically share data.
+- For real multi-device school deployment, connect a centralized backend/database
+  such as Supabase, Firebase, PostgreSQL/API, etc.
+
+6. CONTENT
+Reading: 500 questions
+Vocabulary: 1,000 items
+Generated vocabulary question forms: 3,000
+CSV files under /content allow manual review.
+
+7. COMMERCIAL / PUBLIC DEPLOYMENT NOTE
+The practice content in this package is project-generated/original practice content
+and is not presented as official IELTS material. Before a public commercial launch,
+the operator should still perform normal legal/brand/privacy review and configure
+a proper backend, authentication, security, data retention, and privacy policy.

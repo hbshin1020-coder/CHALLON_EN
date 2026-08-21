@@ -1,0 +1,24 @@
+{
+  "product_name": "CHALLON_NDKTUAL_ENGLISH TEST",
+  "reading_questions": 500,
+  "reading_distribution": {
+    "Low": 150,
+    "Medium": 200,
+    "High": 150
+  },
+  "vocabulary_items": 1000,
+  "vocabulary_distribution": {
+    "Low": 300,
+    "Medium": 400,
+    "High": 300
+  },
+  "vocabulary_question_variations": 3000,
+  "ui_languages": [
+    "English",
+    "Uzbek",
+    "Russian"
+  ],
+  "assessment_question_language": "English",
+  "external_runtime_dependencies": "None",
+  "storage": "Browser localStorage (static prototype)"
+}

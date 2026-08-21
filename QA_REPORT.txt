@@ -1,0 +1,36 @@
+CHALLON_NDKTUAL_ENGLISH TEST — QA REPORT
+
+STATUS: PASS for static-package structural checks
+
+NAME
+- CHALLON_NDKTUAL_ENGLISH TEST
+
+CONTENT COUNTS
+- Reading questions: 500
+- Reading Low / Medium / High: {'Low': 150, 'Medium': 200, 'High': 150}
+- Vocabulary items: 1000
+- Vocabulary Low / Medium / High: {'Low': 300, 'Medium': 400, 'High': 300}
+- Generated Vocabulary question variations: 3000
+
+CONTENT INTEGRITY
+- Reading invalid records: 0
+- Vocabulary invalid records: 0
+- Unique vocabulary terms: 1000
+
+FRONT-END VALIDATION
+- questions.js syntax: PASS
+- vocabulary.js syntax: PASS
+- inline JavaScript blocks checked: 1
+- missing local file references: 0 []
+- duplicate HTML IDs: 0 []
+- external runtime JS/CSS dependencies: NONE
+
+LANGUAGE POLICY
+- UI: English / Uzbek / Russian
+- Assessment questions: English
+- Vocabulary answer choices may include Uzbek meanings as required by the question type.
+
+IMPORTANT DEPLOYMENT LIMITATION
+- This is a static browser/localStorage application.
+- It is upload-ready for demonstration and single-browser operation.
+- True simultaneous multi-device teacher/student synchronization requires a backend/database.
